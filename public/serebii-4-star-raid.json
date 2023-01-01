@@ -1,0 +1,763 @@
+[
+  {
+    "id": "4-0",
+    "stars": 4,
+    "pokemon": "Raichu",
+    "moves": [
+      "Discharge",
+      "Iron Tail",
+      "Charm",
+      "Nuzzle",
+      "Electric Terrain",
+      "Nasty Plot"
+    ]
+  },
+  {
+    "id": "4-1",
+    "stars": 4,
+    "pokemon": "Wigglytuff",
+    "moves": ["Dazzling Gleam", "Hyper Voice", "Charm", "Encore", "Sing"]
+  },
+  {
+    "id": "4-2",
+    "stars": 4,
+    "pokemon": "Dugtrio",
+    "moves": ["Earthquake", "Night Slash", "Slash", "Astonish", "Sandstorm"]
+  },
+  {
+    "id": "4-3",
+    "stars": 4,
+    "pokemon": "Persian",
+    "moves": ["Slash", "Power Gem", "Screech", "Taunt", "Snarl"]
+  },
+  {
+    "id": "4-4",
+    "stars": 4,
+    "pokemon": "Golduck",
+    "moves": [
+      "Aqua Tail",
+      "Zen Headbutt",
+      "Water Pulse",
+      "Hypnosis",
+      "Rain Dance"
+    ]
+  },
+  {
+    "id": "4-5",
+    "stars": 4,
+    "pokemon": "Primeape",
+    "moves": ["Brick Break", "Rage Fist", "Reversal", "Encore", "Bulk Up"]
+  },
+  {
+    "id": "4-6",
+    "stars": 4,
+    "pokemon": "Magneton",
+    "moves": [
+      "Discharge",
+      "Flash Cannon",
+      "Metal Sound",
+      "Thunder Wave",
+      "Electric Terrain"
+    ]
+  },
+  {
+    "id": "4-7",
+    "stars": 4,
+    "pokemon": "Muk",
+    "moves": ["Sludge Bomb", "Fire Punch", "Toxic", "Disable", "Harden"]
+  },
+  {
+    "id": "4-8",
+    "stars": 4,
+    "pokemon": "Cloyster",
+    "moves": [
+      "Razor Shell",
+      "Icicle Crash",
+      "Scary Face",
+      "Ice Shard",
+      "Shell Smash",
+      "Withdraw"
+    ]
+  },
+  {
+    "id": "4-9",
+    "stars": 4,
+    "pokemon": "Hypno",
+    "moves": ["Psyshock", "Psychic", "Hypnosis", "Ice Punch", "Calm Mind"]
+  },
+  {
+    "id": "4-10",
+    "stars": 4,
+    "pokemon": "Electrode",
+    "moves": ["Discharge", "Swift", "Foul Play", "Magnet Rise", "Light Screen"]
+  },
+  {
+    "id": "4-11",
+    "stars": 4,
+    "pokemon": "Scyther",
+    "moves": [
+      "X-Scissor",
+      "Aerial Ace",
+      "Focus Energy",
+      "Slash",
+      "Swords Dance"
+    ]
+  },
+  {
+    "id": "4-12",
+    "stars": 4,
+    "pokemon": "Tauros",
+    "moves": ["Raging Bull", "Zen Headbutt", "Scary Face", "Swagger", "Work Up"]
+  },
+  {
+    "id": "4-13",
+    "stars": 4,
+    "pokemon": "Ditto",
+    "moves": ["Transform"]
+  },
+  {
+    "id": "4-14",
+    "stars": 4,
+    "pokemon": "Dragonair",
+    "moves": [
+      "Dragon Rush",
+      "Aqua Tail",
+      "Safeguard",
+      "Body Slam",
+      "Dragon Dance"
+    ]
+  },
+  {
+    "id": "4-15",
+    "stars": 4,
+    "pokemon": "Ampharos",
+    "moves": [
+      "Discharge",
+      "Power Gem",
+      "Confuse Ray",
+      "Electro Ball",
+      "Electric Terrain",
+      "Cotton Guard"
+    ]
+  },
+  {
+    "id": "4-16",
+    "stars": 4,
+    "pokemon": "Azumarill",
+    "moves": ["Aqua Tail", "Ice Punch", "Double-Edge", "Encore", "Rain Dance"]
+  },
+  {
+    "id": "4-17",
+    "stars": 4,
+    "pokemon": "Forretress",
+    "moves": ["Heavy Slam", "Bug Bite", "Payback", "Zap Cannon", "Harden"]
+  },
+  {
+    "id": "4-18",
+    "stars": 4,
+    "pokemon": "Heracross",
+    "moves": ["Brick Break", "Throat Chop", "Facade", "Pounce", "Swords Dance"]
+  },
+  {
+    "id": "4-19",
+    "stars": 4,
+    "pokemon": "Ursaring",
+    "moves": ["Facade", "Slash", "Play Rough", "Leer", "Trailblaze"]
+  },
+  {
+    "id": "4-20",
+    "stars": 4,
+    "pokemon": "Donphan",
+    "moves": ["Stomping Tantrum", "Slam", "Rollout", "Assurance"]
+  },
+  {
+    "id": "4-21",
+    "stars": 4,
+    "pokemon": "Pupitar",
+    "moves": [
+      "Rock Slide",
+      "Stomping Tantrum",
+      "Smack Down",
+      "Screech",
+      "Sandstorm"
+    ]
+  },
+  {
+    "id": "4-22",
+    "stars": 4,
+    "pokemon": "Masquerain",
+    "moves": ["Bug Buzz", "Air Slash", "Agility", "Stun Spore", "Quiver Dance"]
+  },
+  {
+    "id": "4-23",
+    "stars": 4,
+    "pokemon": "Vigoroth",
+    "moves": ["Facade", "Slash", "Shadow Claw", "Focus Energy", "Yawn"]
+  },
+  {
+    "id": "4-24",
+    "stars": 4,
+    "pokemon": "Medicham",
+    "moves": ["Brick Break", "Zen Headbutt", "Psybeam", "Fake Out", "Work Up"]
+  },
+  {
+    "id": "4-25",
+    "stars": 4,
+    "pokemon": "Swalot",
+    "moves": ["Sludge Bomb", "Yawn", "Encore", "Body Slam", "Stockpile"]
+  },
+  {
+    "id": "4-26",
+    "stars": 4,
+    "pokemon": "Torkoal",
+    "moves": [
+      "Lava Plume",
+      "Body Slam",
+      "Clear Smog",
+      "Yawn",
+      "Shell Smash",
+      "Withdraw"
+    ]
+  },
+  {
+    "id": "4-27",
+    "stars": 4,
+    "pokemon": "Grumpig",
+    "moves": [
+      "Psyshock",
+      "Power Gem",
+      "Confuse Ray",
+      "Low Kick",
+      "Light Screen"
+    ]
+  },
+  {
+    "id": "4-28",
+    "stars": 4,
+    "pokemon": "Cacturne",
+    "moves": [
+      "Energy Ball",
+      "Payback",
+      "Pin Missile",
+      "Sand Attack",
+      "Sandstorm"
+    ]
+  },
+  {
+    "id": "4-29",
+    "stars": 4,
+    "pokemon": "Zangoose",
+    "moves": [
+      "Crush Claw",
+      "Night Slash",
+      "Quick Attack",
+      "Power Trip",
+      "Swords Dance"
+    ]
+  },
+  {
+    "id": "4-30",
+    "stars": 4,
+    "pokemon": "Seviper",
+    "moves": ["Crunch", "Sludge Bomb", "Swagger", "Glare", "Coil"]
+  },
+  {
+    "id": "4-31",
+    "stars": 4,
+    "pokemon": "Whiscash",
+    "moves": ["Muddy Water", "Earth Power", "Tickle", "Aqua Tail", "Rain Dance"]
+  },
+  {
+    "id": "4-32",
+    "stars": 4,
+    "pokemon": "Banette",
+    "moves": [
+      "Shadow Claw",
+      "Sucker Punch",
+      "Hex",
+      "Taunt",
+      "Will-O-Wisp",
+      "Nasty Plot"
+    ]
+  },
+  {
+    "id": "4-33",
+    "stars": 4,
+    "pokemon": "Tropius",
+    "moves": [
+      "Leaf Blade",
+      "Aerial Ace",
+      "Headbutt",
+      "Tailwind",
+      "Dragon Dance"
+    ]
+  },
+  {
+    "id": "4-34",
+    "stars": 4,
+    "pokemon": "Shelgon",
+    "moves": [
+      "Dragon Claw",
+      "Flamethrower",
+      "Focus Energy",
+      "Headbutt",
+      "Dragon Dance"
+    ]
+  },
+  {
+    "id": "4-35",
+    "stars": 4,
+    "pokemon": "Vespiquen",
+    "moves": ["Attack Order", "Bug Buzz", "Aerial Ace", "Taunt", "Defend Order"]
+  },
+  {
+    "id": "4-36",
+    "stars": 4,
+    "pokemon": "Floatzel",
+    "moves": ["Liquidation", "Double Hit", "Water Pulse", "Bite", "Rain Dance"]
+  },
+  {
+    "id": "4-37",
+    "stars": 4,
+    "pokemon": "Gastrodon",
+    "moves": ["Water Pulse", "Earth Power", "Muddy Water", "Yawn", "Stockpile"]
+  },
+  {
+    "id": "4-38",
+    "stars": 4,
+    "pokemon": "Gastrodon",
+    "moves": ["Water Pulse", "Earth Power", "Muddy Water", "Yawn", "Stockpile"]
+  },
+  {
+    "id": "4-39",
+    "stars": 4,
+    "pokemon": "Drifblim",
+    "moves": ["Hex", "Air Slash", "Thunder Wave", "Air Cutter", "Will-O-Wisp"]
+  },
+  {
+    "id": "4-40",
+    "stars": 4,
+    "pokemon": "Skuntank",
+    "moves": ["Crunch", "Poison Jab", "Body Slam", "Focus Energy", "Screech"]
+  },
+  {
+    "id": "4-41",
+    "stars": 4,
+    "pokemon": "Gabite",
+    "moves": ["Dragon Claw", "Sandstorm", "Bite", "Sand Tomb"]
+  },
+  {
+    "id": "4-42",
+    "stars": 4,
+    "pokemon": "Toxicroak",
+    "moves": ["Poison Jab", "Brick Break", "Venoshock", "Taunt", "Toxic"]
+  },
+  {
+    "id": "4-43",
+    "stars": 4,
+    "pokemon": "Lumineon",
+    "moves": ["Surf", "Aurora Beam", "Psybeam", "Safeguard", "Tailwind"]
+  },
+  {
+    "id": "4-44",
+    "stars": 4,
+    "pokemon": "Rotom",
+    "moves": [
+      "Discharge",
+      "Shadow Ball",
+      "Uproar",
+      "Thunder Wave",
+      "Nasty Plot"
+    ]
+  },
+  {
+    "id": "4-45",
+    "stars": 4,
+    "pokemon": "Lilligant",
+    "moves": [
+      "Energy Ball",
+      "Pollen Puff",
+      "Petal Blizzard",
+      "Charm",
+      "Sunny Day",
+      "Quiver Dance"
+    ]
+  },
+  {
+    "id": "4-46",
+    "stars": 4,
+    "pokemon": "Krokorok",
+    "moves": ["Crunch", "Earthquake", "Torment", "Swagger", "Screech"]
+  },
+  {
+    "id": "4-47",
+    "stars": 4,
+    "pokemon": "Sawsbuck",
+    "moves": ["Energy Ball", "Double-Edge", "Double Kick", "Charm", "Sunny Day"]
+  },
+  {
+    "id": "4-48",
+    "stars": 4,
+    "pokemon": "Alomomola",
+    "moves": ["Water Pulse", "Aqua Jet", "Brine", "Mist", "Rain Dance"]
+  },
+  {
+    "id": "4-49",
+    "stars": 4,
+    "pokemon": "Eelektrik",
+    "moves": ["Discharge", "Thrash", "Gastro Acid", "Crunch", "Coil"]
+  },
+  {
+    "id": "4-50",
+    "stars": 4,
+    "pokemon": "Fraxure",
+    "moves": [
+      "Dragon Claw",
+      "Crunch",
+      "Scary Face",
+      "Dragon Pulse",
+      "Dragon Dance"
+    ]
+  },
+  {
+    "id": "4-51",
+    "stars": 4,
+    "pokemon": "Beartic",
+    "moves": ["Icicle Crash", "Slash", "Yawn", "Ice Beam", "Snowscape"]
+  },
+  {
+    "id": "4-52",
+    "stars": 4,
+    "pokemon": "Cryogonal",
+    "moves": [
+      "Freeze-Dry",
+      "Ancient Power",
+      "Haze",
+      "Confuse Ray",
+      "Snowscape",
+      "Aurora Veil"
+    ]
+  },
+  {
+    "id": "4-53",
+    "stars": 4,
+    "pokemon": "Bisharp",
+    "moves": ["Iron Head", "Night Slash", "Slash", "Scary Face", "Iron Defense"]
+  },
+  {
+    "id": "4-54",
+    "stars": 4,
+    "pokemon": "Zweilous",
+    "moves": ["Dragon Pulse", "Dark Pulse", "Bite", "Scary Face", "Work Up"]
+  },
+  {
+    "id": "4-55",
+    "stars": 4,
+    "pokemon": "Pyroar",
+    "moves": ["Hyper Voice", "Flamethrower", "Noble Roar", "Fire Fang", "Snarl"]
+  },
+  {
+    "id": "4-56",
+    "stars": 4,
+    "pokemon": "Gogoat",
+    "moves": ["Seed Bomb", "Take Down", "Growth", "Tail Whip", "Grassy Terrain"]
+  },
+  {
+    "id": "4-57",
+    "stars": 4,
+    "pokemon": "Hawlucha",
+    "moves": [
+      "Brick Break",
+      "Flying Press",
+      "Taunt",
+      "Feather Dance",
+      "Swords Dance"
+    ]
+  },
+  {
+    "id": "4-58",
+    "stars": 4,
+    "pokemon": "Dedenne",
+    "moves": [
+      "Discharge",
+      "Dazzling Gleam",
+      "Nuzzle",
+      "Charm",
+      "Electric Terrain"
+    ]
+  },
+  {
+    "id": "4-59",
+    "stars": 4,
+    "pokemon": "Sliggoo",
+    "moves": ["Dragon Pulse", "Water Pulse", "Body Slam", "Flail", "Rain Dance"]
+  },
+  {
+    "id": "4-60",
+    "stars": 4,
+    "pokemon": "Crabominable",
+    "moves": ["Ice Hammer", "Reversal", "Slam", "Rock Smash", "Snowscape"]
+  },
+  {
+    "id": "4-61",
+    "stars": 4,
+    "pokemon": "Oricorio",
+    "moves": [
+      "Revelation Dance",
+      "Air Slash",
+      "Attract",
+      "Teeter Dance",
+      "Sunny Day"
+    ]
+  },
+  {
+    "id": "4-62",
+    "stars": 4,
+    "pokemon": "Lycanroc",
+    "moves": ["Rock Slide", "Crunch", "Accelerock", "Taunt", "Sandstorm"]
+  },
+  {
+    "id": "4-63",
+    "stars": 4,
+    "pokemon": "Lycanroc",
+    "moves": ["Rock Slide", "Crunch", "Counter", "Endeavor", "Sandstorm"]
+  },
+  {
+    "id": "4-64",
+    "stars": 4,
+    "pokemon": "Lurantis",
+    "moves": ["Leaf Blade", "X-Scissor", "Scary Face", "Slash", "Growth"]
+  },
+  {
+    "id": "4-65",
+    "stars": 4,
+    "pokemon": "Komala",
+    "moves": ["Slam", "Sucker Punch", "Wood Hammer", "Flail", "Stockpile"]
+  },
+  {
+    "id": "4-66",
+    "stars": 4,
+    "pokemon": "Drednaw",
+    "moves": [
+      "Razor Shell",
+      "Rock Slide",
+      "Headbutt",
+      "Scary Face",
+      "Rain Dance"
+    ]
+  },
+  {
+    "id": "4-67",
+    "stars": 4,
+    "pokemon": "Sandaconda",
+    "moves": ["Bulldoze", "Glare", "Brutal Swing", "Slam", "Coil"]
+  },
+  {
+    "id": "4-68",
+    "stars": 4,
+    "pokemon": "Barraskewda",
+    "moves": ["Liquidation", "Crunch", "Aqua Jet", "Focus Energy", "Rain Dance"]
+  },
+  {
+    "id": "4-69",
+    "stars": 4,
+    "pokemon": "Polteageist",
+    "moves": [
+      "Shadow Ball",
+      "Mega Drain",
+      "Astonish",
+      "Will-O-Wisp",
+      "Shell Smash",
+      "Withdraw"
+    ]
+  },
+  {
+    "id": "4-70",
+    "stars": 4,
+    "pokemon": "Falinks",
+    "moves": [
+      "Reversal",
+      "First Impression",
+      "Brick Break",
+      "Take Down",
+      "No Retreat"
+    ]
+  },
+  {
+    "id": "4-71",
+    "stars": 4,
+    "pokemon": "Frosmoth",
+    "moves": [
+      "Bug Buzz",
+      "Stun Spore",
+      "Mist",
+      "Aurora Beam",
+      "Snowscape",
+      "Quiver Dance"
+    ]
+  },
+  {
+    "id": "4-72",
+    "stars": 4,
+    "pokemon": "Stonjourner",
+    "moves": ["Rock Slide", "Body Slam", "Gravity", "Stomping Tantrum", "Curse"]
+  },
+  {
+    "id": "4-73",
+    "stars": 4,
+    "pokemon": "Eiscue",
+    "moves": ["Surf", "Icicle Crash", "Headbutt", "Mist", "Snowscape"]
+  },
+  {
+    "id": "4-74",
+    "stars": 4,
+    "pokemon": "Drakloak",
+    "moves": [
+      "Dragon Pulse",
+      "Dragon Rush",
+      "Take Down",
+      "Hex",
+      "Will-O-Wisp",
+      "Dragon Dance"
+    ]
+  },
+  {
+    "id": "4-75",
+    "stars": 4,
+    "pokemon": "Maushold",
+    "moves": ["Take Down", "Play Rough", "Encore", "Bullet Seed", "Low Kick"]
+  },
+  {
+    "id": "4-76",
+    "stars": 4,
+    "pokemon": "Dachsbun",
+    "moves": ["Play Rough", "Take Down", "Charm", "Bite"]
+  },
+  {
+    "id": "4-77",
+    "stars": 4,
+    "pokemon": "Squawkabilly",
+    "moves": ["Facade", "Brave Bird", "Taunt", "Uproar", "Flatter"]
+  },
+  {
+    "id": "4-78",
+    "stars": 4,
+    "pokemon": "Bellibolt",
+    "moves": [
+      "Discharge",
+      "Mud Shot",
+      "Muddy Water",
+      "Confuse Ray",
+      "Eerie Impulse"
+    ]
+  },
+  {
+    "id": "4-79",
+    "stars": 4,
+    "pokemon": "Kilowattrel",
+    "moves": ["Discharge", "Air Slash", "Electro Ball", "Tailwind"]
+  },
+  {
+    "id": "4-80",
+    "stars": 4,
+    "pokemon": "Grafaiai",
+    "moves": ["Poison Jab", "Slash", "Taunt", "Flatter", "Toxic"]
+  },
+  {
+    "id": "4-81",
+    "stars": 4,
+    "pokemon": "Toedscruel",
+    "moves": ["Earth Power", "Seed Bomb", "Stun Spore", "Foul Play", "Growth"]
+  },
+  {
+    "id": "4-82",
+    "stars": 4,
+    "pokemon": "Scovillain",
+    "moves": [
+      "Seed Bomb",
+      "Flamethrower",
+      "Worry Seed",
+      "Headbutt",
+      "Sunny Day",
+      "Growth"
+    ]
+  },
+  {
+    "id": "4-83",
+    "stars": 4,
+    "pokemon": "Rabsca",
+    "moves": [
+      "Bug Buzz",
+      "Extrasensory",
+      "Sand Attack",
+      "Struggle Bug",
+      "Psychic Terrain"
+    ]
+  },
+  {
+    "id": "4-84",
+    "stars": 4,
+    "pokemon": "Espathra",
+    "moves": [
+      "Lumina Crash",
+      "Dazzling Gleam",
+      "Baby-Doll Eyes",
+      "Feather Dance",
+      "Psychic Terrain"
+    ]
+  },
+  {
+    "id": "4-85",
+    "stars": 4,
+    "pokemon": "Wugtrio",
+    "moves": ["Triple Dive", "Sucker Punch", "Aqua Jet", "Facade", "Rain Dance"]
+  },
+  {
+    "id": "4-86",
+    "stars": 4,
+    "pokemon": "Cyclizar",
+    "moves": [
+      "Dragon Claw",
+      "Dragon Pulse",
+      "Double-Edge",
+      "Quick Attack",
+      "Shift Gear"
+    ]
+  },
+  {
+    "id": "4-87",
+    "stars": 4,
+    "pokemon": "Houndstone",
+    "moves": ["Last Respects", "Bite", "Charm", "Lick"]
+  },
+  {
+    "id": "4-88",
+    "stars": 4,
+    "pokemon": "Flamigo",
+    "moves": ["Mega Kick", "Aerial Ace", "Air Slash", "Payback", "Taunt"]
+  },
+  {
+    "id": "4-89",
+    "stars": 4,
+    "pokemon": "Veluza",
+    "moves": ["Aqua Cutter", "Psycho Cut", "Slash", "Aqua Jet", "Fillet Away"]
+  },
+  {
+    "id": "4-90",
+    "stars": 4,
+    "pokemon": "Clodsire",
+    "moves": ["Poison Jab", "Stomping Tantrum", "Yawn", "Toxic", "Stockpile"]
+  },
+  {
+    "id": "4-91",
+    "stars": 4,
+    "pokemon": "Farigiraf",
+    "moves": ["Twin Beam", "Stomp", "Thunder Wave", "Psychic", "Calm Mind"]
+  },
+  {
+    "id": "4-92",
+    "stars": 4,
+    "pokemon": "Dudunsparce",
+    "moves": ["Hyper Drill", "Drill Run", "Glare", "Facade", "Coil"]
+  }
+]

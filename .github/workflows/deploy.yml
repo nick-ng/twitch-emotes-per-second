@@ -1,0 +1,30 @@
+name: Deploy Front-end
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - run: |
+          git config user.email nick-ng@users.noreply.github.com
+          git config user.name "${GITHUB_ACTOR}"
+          npm ci
+          npm run build
+          cp -R ./public/. ./dist
+          cp ./dist/index.html ./dist/404.html
+          echo emotes-per-second.pux.one > ./dist/CNAME
+          git checkout --orphan gh-pages
+          git reset
+          cp -R ./dist/. ./
+          git add $(ls ./dist)
+          git commit -m "$(date) deploy front-end"
+          git push --force origin gh-pages
