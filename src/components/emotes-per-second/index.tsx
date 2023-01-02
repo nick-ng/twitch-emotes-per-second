@@ -117,13 +117,15 @@ export default function EmotesPerSecond() {
   return (
     <div>
       <form
-        onSubmit={() => {
+        onSubmit={(e) => {
+          e.preventDefault();
           setOptions({ channel: tempChannel });
         }}
       >
         <label>
           Channel:{" "}
           <input
+            className="inline-block rounded-r-none"
             type="text"
             value={tempChannel}
             onChange={(e) => {
@@ -131,7 +133,12 @@ export default function EmotesPerSecond() {
             }}
           />
         </label>
-        <button disabled={tempChannel === channel}>Save</button>
+        <button
+          className="my-0.5 inline-block rounded-r border border-gray-300 bg-white px-2 dark:bg-gray-800"
+          disabled={tempChannel === channel}
+        >
+          Save
+        </button>
       </form>
       {oldestMessage && (
         <div>
