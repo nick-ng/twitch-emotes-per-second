@@ -1,44 +1,113 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
-import type { SevenTvEmote } from "../../schemas";
-import { SevenTvEmoteArraySchema } from "../../schemas";
+import type { Emote as EmoteType } from "../../schemas";
 import { useOptions } from "../../hooks/options-context";
 import { useTwitchChatMessages } from "../../hooks/twitch-chat-messages";
+import { fetchBetterTTVEmotes, fetchGlobalBetterTTVEmotes } from "./better-ttv";
+import { fetchSevenTVEmotes, fetchGlobalSevenTVEmotes } from "./seven-tv";
+import TimeStats from "./time-stats";
 
-const getJson = async (url: string) => {
-  const res = await fetch(url);
-  return await res.json();
-};
+type EmoteCounts = EmoteType & { count: number };
 
-const updateBetterTTVEmotes = async () => {
-  // https://api.betterttv.net/3/cached/emotes/global
-  // https://api.betterttv.net/3/cached/users/twitch/132415238
-};
+interface TimeStats {
+  endTime: number;
+  emoteCounts: EmoteCounts[];
+}
 
-const updateSevenTVEmotes = async (roomId: string) => {
-  const temp = await Promise.all([
-    // getJson("https://api.7tv.app/v2/emotes/global"),
-    getJson(`https://api.7tv.app/v2/users/${roomId}/emotes`),
-  ]);
-
-  return SevenTvEmoteArraySchema.parse(temp.flat());
-};
+const timePeriodMS = 10000;
+const updatePeriodMS = 1000;
 
 export default function EmotesPerSecond() {
-  const { options } = useOptions();
+  const { options, setOptions } = useOptions();
   const { channel } = options;
   const { messages, channelInfo } = useTwitchChatMessages(channel);
 
-  const [sevenTVEmotes, setSevenTVEmotes] = useState<SevenTvEmote[]>([]);
+  const [tempChannel, setTempChannel] = useState(channel || "");
+  const [emotes, setEmotes] = useState<EmoteType[]>([]);
+  const [timeStats, setTimeStats] = useState<TimeStats[]>([]);
+  const [checkTimestamp, setCheckTimestamp] = useState(
+    Math.floor(Date.now() / 5000) * 5000
+  );
+  const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     (async () => {
       if (channelInfo.roomId) {
-        const temp = await updateSevenTVEmotes(channelInfo.roomId);
-        setSevenTVEmotes(temp.sort((a, b) => b.name.length - a.name.length));
+        console.info("updating emotes");
+        const temp = await Promise.all([
+          fetchBetterTTVEmotes(channelInfo.roomId),
+          fetchGlobalBetterTTVEmotes(),
+          fetchSevenTVEmotes(channelInfo.roomId),
+          fetchGlobalSevenTVEmotes(),
+        ]);
+        setEmotes(temp.flat().sort((a, b) => b.score - a.score));
       }
     })();
-  }, [channelInfo.roomId]);
+  }, [
+    channelInfo.roomId,
+    Math.floor(checkTimestamp / updatePeriodMS / (30 * 60)),
+  ]);
+
+  useEffect(() => {
+    const temp: { [key: string]: EmoteCounts } = {};
+    messages
+      .filter((message) => message.timestamp > checkTimestamp - timePeriodMS)
+      .forEach((message) => {
+        let tempMessage = message.message;
+        for (const emote of emotes) {
+          const re = new RegExp(emote.regexp, "g");
+          const matches = [...tempMessage.matchAll(re)];
+          if (matches.length > 0) {
+            if (!temp[emote.emote]) {
+              temp[emote.emote] = { count: 0, ...emote };
+            }
+
+            temp[emote.emote].count = temp[emote.emote].count + matches.length;
+
+            tempMessage = tempMessage.replaceAll(emote.emote, " ");
+          }
+        }
+      });
+
+    setTimeStats((prev) => {
+      return [
+        {
+          endTime: Date.now(),
+          emoteCounts: Object.values(temp),
+        },
+      ]
+        .concat(prev)
+        .slice(0, 100);
+    });
+  }, [checkTimestamp]);
+
+  useEffect(() => {
+    if (typeof timeoutRef.current === "number") {
+      clearTimeout(timeoutRef.current);
+    }
+
+    const updatecheckTimestamp = () => {
+      setCheckTimestamp((prev) => {
+        if (Date.now() - updatePeriodMS > prev) {
+          return prev + updatePeriodMS;
+        }
+
+        return prev;
+      });
+
+      timeoutRef.current = setTimeout(() => {
+        updatecheckTimestamp();
+      }, updatePeriodMS / 5.1);
+    };
+
+    updatecheckTimestamp();
+
+    return () => {
+      if (typeof timeoutRef.current === "number") {
+        clearTimeout(timeoutRef.current);
+      }
+    };
+  }, []);
 
   const oldestMessage = messages[messages.length - 1];
   const oldestMessageAgeMinutes =
@@ -47,46 +116,51 @@ export default function EmotesPerSecond() {
 
   return (
     <div>
+      <form
+        onSubmit={() => {
+          setOptions({ channel: tempChannel });
+        }}
+      >
+        <label>
+          Channel:{" "}
+          <input
+            type="text"
+            value={tempChannel}
+            onChange={(e) => {
+              setTempChannel(e.target.value);
+            }}
+          />
+        </label>
+        <button disabled={tempChannel === channel}>Save</button>
+      </form>
       {oldestMessage && (
         <div>
-          Oldest Message Age: {oldestMessageAgeMinutes.toFixed(3)} minutes
+          Oldest Message Age: {Math.floor(oldestMessageAgeMinutes)}:
+          {Math.floor((oldestMessageAgeMinutes % 1) * 60)
+            .toString()
+            .padStart(2, "0")}{" "}
+          minutes
         </div>
       )}
-      <table>
-        <thead>
-          <tr>
-            <th className="px-1 text-right">User</th>
-            <th className="px-1 text-left">Message</th>
-            <th className="px-1 text-left">Emotes</th>
-          </tr>
-        </thead>
-        <tbody>
-          {messages.map((m) => {
-            let tempMessage = m.message;
-            return (
-              <tr key={m.id}>
-                <td className="px-1 text-right" style={{ color: m.color }}>
-                  {m.user}
-                </td>
-                <td className="px-1">{m.message}</td>
-                <td className="px-1">
-                  {sevenTVEmotes
-                    .filter((e) => {
-                      if (tempMessage.includes(e.name)) {
-                        tempMessage = tempMessage.replaceAll(e.name, " ");
-                        return true;
-                      }
-
-                      return false;
-                    })
-                    .map((e) => e.name)
-                    .join(", ")}
-                </td>
-              </tr>
-            );
-          })}
-        </tbody>
-      </table>
+      {timeStats.length > 0 && (
+        <TimeStats
+          emoteCounts={timeStats[0].emoteCounts}
+          endTime={timeStats[0].endTime}
+          timePeriodMS={timePeriodMS}
+        />
+      )}
+      <details>
+        <summary>Past Stats</summary>
+        {timeStats.slice(1).map(({ emoteCounts, endTime }, i) => (
+          <div className="my-0.5" key={endTime}>
+            <TimeStats
+              emoteCounts={emoteCounts}
+              endTime={endTime}
+              timePeriodMS={timePeriodMS}
+            />
+          </div>
+        ))}
+      </details>
     </div>
   );
 }

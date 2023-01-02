@@ -7,14 +7,14 @@ import {
 } from "react";
 import z from "zod";
 
-import { CustomEmoteSchema } from "../schemas";
+import { EmoteSchema } from "../schemas";
 
 const OPTIONS_STORE = "EMOTES_PER_SECOND_OPTIONS";
 
 const optionsSchema = z.object({
   darkMode: z.enum(["light", "dark", "system"]),
   channel: z.string().nullable(),
-  customEmotes: z.array(CustomEmoteSchema),
+  customEmotes: z.array(EmoteSchema),
 });
 
 export type Options = z.infer<typeof optionsSchema>;

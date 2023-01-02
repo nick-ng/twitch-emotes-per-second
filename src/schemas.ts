@@ -1,11 +1,15 @@
 import z from "zod";
 
-export const CustomEmoteSchema = z.object({
+export const EmoteSchema = z.object({
+  id: z.string(),
   emote: z.string(),
-  image: z.string().nullable(),
+  imageUrl: z.string(),
+  regexp: z.string(),
+  source: z.string(),
+  score: z.number(),
 });
 
-export type CustomEmote = z.infer<typeof CustomEmoteSchema>;
+export type Emote = z.infer<typeof EmoteSchema>;
 
 export const SevenTvEmoteSchema = z.object({
   id: z.string(),
@@ -18,3 +22,9 @@ export const SevenTvEmoteSchema = z.object({
 export type SevenTvEmote = z.infer<typeof SevenTvEmoteSchema>;
 
 export const SevenTvEmoteArraySchema = z.array(SevenTvEmoteSchema);
+
+export const BetterTTVEmoteSchema = z.object({
+  code: z.string(),
+  id: z.string(),
+  imageType: z.string(),
+});
