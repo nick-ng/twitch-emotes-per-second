@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { useParams } from "react-router-dom";
 
 import type { Emote as EmoteType } from "../../schemas";
 import { useOptions } from "../../hooks/options-context";
@@ -24,9 +25,12 @@ const timePeriodMS = 10000;
 const updatePeriodMS = 1000;
 
 export default function EmotesPerSecond() {
+  const { urlChannel } = useParams();
   const { options, setOptions } = useOptions();
   const { channel, autoHide, showThreshold } = options;
-  const { messages, channelInfo } = useTwitchChatMessages(channel);
+  const { messages, channelInfo } = useTwitchChatMessages(
+    urlChannel || channel
+  );
 
   const [tempChannel, setTempChannel] = useState(channel || "");
   const [emotes, setEmotes] = useState<EmoteType[]>([]);
@@ -131,7 +135,7 @@ export default function EmotesPerSecond() {
 
   return (
     <div className="relative flex flex-row items-start">
-      <TwitchEmbed channel={channel} />
+      <TwitchEmbed channel={urlChannel || channel} />
       <div className="mx-1">
         <button
           className={`absolute top-0 right-0 rounded border border-gray-300 bg-gray-800 px-2 transition-opacity hover:opacity-100 ${
@@ -149,30 +153,34 @@ export default function EmotesPerSecond() {
           }`}
         >
           <h1>Twitch Emotes Per Second</h1>
-          <form
-            onSubmit={(e) => {
-              e.preventDefault();
-              setOptions({ channel: tempChannel });
-            }}
-          >
-            <label>
-              Channel:{" "}
-              <input
-                className="inline-block rounded-r-none pl-0.5"
-                type="text"
-                value={tempChannel}
-                onChange={(e) => {
-                  setTempChannel(e.target.value);
-                }}
-              />
-            </label>
-            <button
-              className="my-0.5 inline-block rounded-r border border-gray-300 bg-gray-800 px-2"
-              disabled={tempChannel === channel}
+          {urlChannel ? (
+            <h2>{urlChannel}</h2>
+          ) : (
+            <form
+              onSubmit={(e) => {
+                e.preventDefault();
+                setOptions({ channel: tempChannel });
+              }}
             >
-              Save
-            </button>
-          </form>
+              <label>
+                Channel:{" "}
+                <input
+                  className="inline-block rounded-r-none pl-0.5"
+                  type="text"
+                  value={tempChannel}
+                  onChange={(e) => {
+                    setTempChannel(e.target.value);
+                  }}
+                />
+              </label>
+              <button
+                className="my-0.5 inline-block rounded-r border border-gray-300 bg-gray-800 px-2"
+                disabled={tempChannel === channel}
+              >
+                Save
+              </button>
+            </form>
+          )}
           <label className="">
             Auto Show Total Emote Count:{" "}
             <input

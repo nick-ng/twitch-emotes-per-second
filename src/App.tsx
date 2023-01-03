@@ -7,7 +7,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
-    children: [{ path: "/", element: <EmotesPerSecond /> }],
+    children: [
+      { path: "/", element: <EmotesPerSecond /> },
+      { path: "/:urlChannel", element: <EmotesPerSecond /> },
+    ],
   },
 ]);
 
