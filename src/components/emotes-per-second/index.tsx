@@ -151,7 +151,7 @@ export default function EmotesPerSecond() {
             setOptions({ autoHide: !autoHide });
           }}
         >
-          Auto Hide: {autoHide ? showThreshold : "Off"}
+          Auto Hide: {autoHide ? `${totalEmotes}/${showThreshold}` : "Off"}
         </button>
         <div
           className={`overflow-x-hidden transition-all duration-300 ${
@@ -188,7 +188,7 @@ export default function EmotesPerSecond() {
             </form>
           )}
           <label className="">
-            Auto Show Total Emote Count:{" "}
+            Auto Show Total Emote Count: {totalEmotes}/
             <input
               className="w-14"
               type="number"
