@@ -22,8 +22,8 @@ export const fetchSevenTVEmotes = async (
     emote: name,
     imageUrl: urls[1][1] || "",
     regexp: name.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&"),
-    source: "7tv",
-    score: name.length + 0.9,
+    source: "7TV",
+    score: name.length + 0.8,
   }));
 };
 
@@ -41,7 +41,7 @@ export const fetchGlobalSevenTVEmotes = async (): Promise<EmoteType[]> => {
     emote: name,
     imageUrl: urls[1][1] || "",
     regexp: name.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&"),
-    source: "7tv",
+    source: "7TV",
     score: name.length + 0.6,
   }));
 };

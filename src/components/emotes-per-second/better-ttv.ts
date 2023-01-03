@@ -30,14 +30,12 @@ export const fetchBetterTTVEmotes = async (
     emote: code,
     imageUrl: `https://cdn.betterttv.net/emote/${id}/2x`,
     regexp: code.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&"),
-    source: "betterttv",
+    source: "BetterTTV",
     score: code.length + 0.5,
   }));
 };
 
-export const fetchGlobalBetterTTVEmotes = async (
-  platform = "twitch"
-): Promise<EmoteType[]> => {
+export const fetchGlobalBetterTTVEmotes = async (): Promise<EmoteType[]> => {
   const res = z
     .array(BetterTTVEmoteSchema)
     .safeParse(
@@ -53,9 +51,36 @@ export const fetchGlobalBetterTTVEmotes = async (
     emote: code,
     imageUrl: `https://cdn.betterttv.net/emote/${id}/2x`,
     regexp: code.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&"),
+    source: "BetterTTV",
+    score: code.length + 0.4,
+  }));
+};
+
+export const fetchFrankerfacezBetterTTVEmotes = async (): Promise<
+  EmoteType[]
+> => {
+  const res = z
+    .array(BetterTTVEmoteSchema)
+    .safeParse(
+      await fetchJson(
+        "https://api.betterttv.net/3/cached/frankerfacez/emotes/global"
+      )
+    );
+
+  if (!res.success) {
+    return [];
+  }
+
+  return res.data.map(({ code, id }) => ({
+    id,
+    emote: code,
+    imageUrl: `https://cdn.betterttv.net/emote/${id}/2x`,
+    regexp: code.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&"),
     source: "betterttv",
-    score: code.length + 0.5,
+    score: code.length + 0.4,
   }));
 };
 
 // https://api.betterttv.net/3/cached/emotes/global
+
+// https://api.betterttv.net/3/cached/frankerfacez/emotes/global

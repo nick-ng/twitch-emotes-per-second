@@ -1,0 +1,2394 @@
+[
+  {
+    "id": "354",
+    "emote": "4Head",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/354/2.0",
+    "regexp": "4Head",
+    "source": "Twitch",
+    "score": 10005.99
+  },
+  {
+    "id": "555555579",
+    "emote": "8-)",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555579/2.0",
+    "regexp": "8\\-\\)",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "555555558",
+    "emote": ":(",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555558/2.0",
+    "regexp": ":\\(",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "2",
+    "emote": ":(",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/2/2.0",
+    "regexp": ":\\(",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "1",
+    "emote": ":)",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1/2.0",
+    "regexp": ":\\)",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "555555559",
+    "emote": ":-(",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555559/2.0",
+    "regexp": ":\\-\\(",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "555555557",
+    "emote": ":-)",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555557/2.0",
+    "regexp": ":\\-\\)",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "555555586",
+    "emote": ":-/",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555586/2.0",
+    "regexp": ":\\-/",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "555555561",
+    "emote": ":-D",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555561/2.0",
+    "regexp": ":\\-D",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "555555581",
+    "emote": ":-O",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555581/2.0",
+    "regexp": ":\\-O",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "555555592",
+    "emote": ":-P",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555592/2.0",
+    "regexp": ":\\-P",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "555555568",
+    "emote": ":-Z",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555568/2.0",
+    "regexp": ":\\-Z",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "555555588",
+    "emote": ":-\\",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555588/2.0",
+    "regexp": ":\\-\\\\",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "555555583",
+    "emote": ":-o",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555583/2.0",
+    "regexp": ":\\-o",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "555555594",
+    "emote": ":-p",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555594/2.0",
+    "regexp": ":\\-p",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "555555566",
+    "emote": ":-z",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555566/2.0",
+    "regexp": ":\\-z",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "555555564",
+    "emote": ":-|",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555564/2.0",
+    "regexp": ":\\-\\|",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "10",
+    "emote": ":/",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/10/2.0",
+    "regexp": ":/",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "555555585",
+    "emote": ":/",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555585/2.0",
+    "regexp": ":/",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "3",
+    "emote": ":D",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/3/2.0",
+    "regexp": ":D",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "555555560",
+    "emote": ":D",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555560/2.0",
+    "regexp": ":D",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "8",
+    "emote": ":O",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/8/2.0",
+    "regexp": ":O",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "555555580",
+    "emote": ":O",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555580/2.0",
+    "regexp": ":O",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "12",
+    "emote": ":P",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/12/2.0",
+    "regexp": ":P",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "555555591",
+    "emote": ":P",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555591/2.0",
+    "regexp": ":P",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "555555567",
+    "emote": ":Z",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555567/2.0",
+    "regexp": ":Z",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "555555587",
+    "emote": ":\\",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555587/2.0",
+    "regexp": ":\\\\",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "555555582",
+    "emote": ":o",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555582/2.0",
+    "regexp": ":o",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "555555593",
+    "emote": ":p",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555593/2.0",
+    "regexp": ":p",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "555555565",
+    "emote": ":z",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555565/2.0",
+    "regexp": ":z",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "555555563",
+    "emote": ":|",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555563/2.0",
+    "regexp": ":\\|",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "5",
+    "emote": ":|",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/5/2.0",
+    "regexp": ":\\|",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "555555589",
+    "emote": ";)",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555589/2.0",
+    "regexp": ";\\)",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "11",
+    "emote": ";)",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/11/2.0",
+    "regexp": ";\\)",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "555555590",
+    "emote": ";-)",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555590/2.0",
+    "regexp": ";\\-\\)",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "555555596",
+    "emote": ";-P",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555596/2.0",
+    "regexp": ";\\-P",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "555555598",
+    "emote": ";-p",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555598/2.0",
+    "regexp": ";\\-p",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "13",
+    "emote": ";P",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/13/2.0",
+    "regexp": ";P",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "555555595",
+    "emote": ";P",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555595/2.0",
+    "regexp": ";P",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "555555597",
+    "emote": ";p",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555597/2.0",
+    "regexp": ";p",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "555555584",
+    "emote": "<3",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555584/2.0",
+    "regexp": "<3",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "9",
+    "emote": "<3",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/9/2.0",
+    "regexp": "<3",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "4",
+    "emote": ">(",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/4/2.0",
+    "regexp": ">\\(",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "555555562",
+    "emote": ">(",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555562/2.0",
+    "regexp": ">\\(",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "3792",
+    "emote": "ANELE",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/3792/2.0",
+    "regexp": "ANELE",
+    "source": "Twitch",
+    "score": 10005.99
+  },
+  {
+    "id": "51838",
+    "emote": "ArgieB8",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/51838/2.0",
+    "regexp": "ArgieB8",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "50",
+    "emote": "ArsonNoSexy",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/50/2.0",
+    "regexp": "ArsonNoSexy",
+    "source": "Twitch",
+    "score": 10011.99
+  },
+  {
+    "id": "307827267",
+    "emote": "AsexualPride",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/307827267/2.0",
+    "regexp": "AsexualPride",
+    "source": "Twitch",
+    "score": 10012.99
+  },
+  {
+    "id": "74",
+    "emote": "AsianGlow",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/74/2.0",
+    "regexp": "AsianGlow",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "emotesv2_d29854e38d054e9894f1ed1fb0a0e608",
+    "emote": "Awwdible",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_d29854e38d054e9894f1ed1fb0a0e608/2.0",
+    "regexp": "Awwdible",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "7",
+    "emote": "B)",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/7/2.0",
+    "regexp": "B\\)",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "555555577",
+    "emote": "B)",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555577/2.0",
+    "regexp": "B\\)",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "555555578",
+    "emote": "B-)",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555578/2.0",
+    "regexp": "B\\-\\)",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "30",
+    "emote": "BCWarrior",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/30/2.0",
+    "regexp": "BCWarrior",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "301428702",
+    "emote": "BOP",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/301428702/2.0",
+    "regexp": "BOP",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "22639",
+    "emote": "BabyRage",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/22639/2.0",
+    "regexp": "BabyRage",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "115234",
+    "emote": "BatChest",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/115234/2.0",
+    "regexp": "BatChest",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "160394",
+    "emote": "BegWan",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/160394/2.0",
+    "regexp": "BegWan",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "86",
+    "emote": "BibleThump",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/86/2.0",
+    "regexp": "BibleThump",
+    "source": "Twitch",
+    "score": 10010.99
+  },
+  {
+    "id": "1904",
+    "emote": "BigBrother",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1904/2.0",
+    "regexp": "BigBrother",
+    "source": "Twitch",
+    "score": 10010.99
+  },
+  {
+    "id": "160395",
+    "emote": "BigPhish",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/160395/2.0",
+    "regexp": "BigPhish",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "307827313",
+    "emote": "BisexualPride",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/307827313/2.0",
+    "regexp": "BisexualPride",
+    "source": "Twitch",
+    "score": 10013.99
+  },
+  {
+    "id": "302537250",
+    "emote": "BlackLivesMatter",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/302537250/2.0",
+    "regexp": "BlackLivesMatter",
+    "source": "Twitch",
+    "score": 10016.99
+  },
+  {
+    "id": "114738",
+    "emote": "BlargNaut",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/114738/2.0",
+    "regexp": "BlargNaut",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "69",
+    "emote": "BloodTrail",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/69/2.0",
+    "regexp": "BloodTrail",
+    "source": "Twitch",
+    "score": 10010.99
+  },
+  {
+    "id": "115233",
+    "emote": "BrainSlug",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/115233/2.0",
+    "regexp": "BrainSlug",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "4057",
+    "emote": "BrokeBack",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/4057/2.0",
+    "regexp": "BrokeBack",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "27602",
+    "emote": "BuddhaBar",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/27602/2.0",
+    "regexp": "BuddhaBar",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "emotesv2_4acac638cffb4db49f376059f7077dae",
+    "emote": "CaitlynS",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_4acac638cffb4db49f376059f7077dae/2.0",
+    "regexp": "CaitlynS",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "166266",
+    "emote": "CarlSmile",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/166266/2.0",
+    "regexp": "CarlSmile",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "90129",
+    "emote": "ChefFrank",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/90129/2.0",
+    "regexp": "ChefFrank",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "58127",
+    "emote": "CoolCat",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/58127/2.0",
+    "regexp": "CoolCat",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "123171",
+    "emote": "CoolStoryBob",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/123171/2.0",
+    "regexp": "CoolStoryBob",
+    "source": "Twitch",
+    "score": 10012.99
+  },
+  {
+    "id": "49106",
+    "emote": "CorgiDerp",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/49106/2.0",
+    "regexp": "CorgiDerp",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "191313",
+    "emote": "CrreamAwk",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/191313/2.0",
+    "regexp": "CrreamAwk",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "116625",
+    "emote": "CurseLit",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/116625/2.0",
+    "regexp": "CurseLit",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "973",
+    "emote": "DAESuppy",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/973/2.0",
+    "regexp": "DAESuppy",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "73",
+    "emote": "DBstyle",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/73/2.0",
+    "regexp": "DBstyle",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "33",
+    "emote": "DansGame",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/33/2.0",
+    "regexp": "DansGame",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "emotesv2_d9567e500d78441793bee538dcabc1da",
+    "emote": "DarkKnight",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_d9567e500d78441793bee538dcabc1da/2.0",
+    "regexp": "DarkKnight",
+    "source": "Twitch",
+    "score": 10010.99
+  },
+  {
+    "id": "461298",
+    "emote": "DarkMode",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/461298/2.0",
+    "regexp": "DarkMode",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "111700",
+    "emote": "DatSheffy",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/111700/2.0",
+    "regexp": "DatSheffy",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "58135",
+    "emote": "DendiFace",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/58135/2.0",
+    "regexp": "DendiFace",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "114835",
+    "emote": "DogFace",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/114835/2.0",
+    "regexp": "DogFace",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "102242",
+    "emote": "DoritosChip",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/102242/2.0",
+    "regexp": "DoritosChip",
+    "source": "Twitch",
+    "score": 10011.99
+  },
+  {
+    "id": "110734",
+    "emote": "DxCat",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/110734/2.0",
+    "regexp": "DxCat",
+    "source": "Twitch",
+    "score": 10005.99
+  },
+  {
+    "id": "959018",
+    "emote": "EarthDay",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/959018/2.0",
+    "regexp": "EarthDay",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "4339",
+    "emote": "EleGiggle",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/4339/2.0",
+    "regexp": "EleGiggle",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "376765",
+    "emote": "EntropyWins",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/376765/2.0",
+    "regexp": "EntropyWins",
+    "source": "Twitch",
+    "score": 10011.99
+  },
+  {
+    "id": "302426269",
+    "emote": "ExtraLife",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/302426269/2.0",
+    "regexp": "ExtraLife",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "1441276",
+    "emote": "FBBlock",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1441276/2.0",
+    "regexp": "FBBlock",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "1441281",
+    "emote": "FBCatch",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1441281/2.0",
+    "regexp": "FBCatch",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "1441285",
+    "emote": "FBChallenge",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1441285/2.0",
+    "regexp": "FBChallenge",
+    "source": "Twitch",
+    "score": 10011.99
+  },
+  {
+    "id": "1441271",
+    "emote": "FBPass",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1441271/2.0",
+    "regexp": "FBPass",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "1441289",
+    "emote": "FBPenalty",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1441289/2.0",
+    "regexp": "FBPenalty",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "1441261",
+    "emote": "FBRun",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1441261/2.0",
+    "regexp": "FBRun",
+    "source": "Twitch",
+    "score": 10005.99
+  },
+  {
+    "id": "1441273",
+    "emote": "FBSpiral",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1441273/2.0",
+    "regexp": "FBSpiral",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "626795",
+    "emote": "FBtouchdown",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/626795/2.0",
+    "regexp": "FBtouchdown",
+    "source": "Twitch",
+    "score": 10011.99
+  },
+  {
+    "id": "244",
+    "emote": "FUNgineer",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/244/2.0",
+    "regexp": "FUNgineer",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "360",
+    "emote": "FailFish",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/360/2.0",
+    "regexp": "FailFish",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "emotesv2_2734f1a85677416a9d8f846a2d1b4721",
+    "emote": "FallCry",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_2734f1a85677416a9d8f846a2d1b4721/2.0",
+    "regexp": "FallCry",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "emotesv2_7f9b025d534544afaf679e13fbd47b88",
+    "emote": "FallHalp",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_7f9b025d534544afaf679e13fbd47b88/2.0",
+    "regexp": "FallHalp",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "emotesv2_dee4ecfb7f0940bead9765da02c57ca9",
+    "emote": "FallWinning",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_dee4ecfb7f0940bead9765da02c57ca9/2.0",
+    "regexp": "FallWinning",
+    "source": "Twitch",
+    "score": 10011.99
+  },
+  {
+    "id": "emotesv2_89f3f0761c7b4f708061e9e4be3b7d17",
+    "emote": "FamilyMan",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_89f3f0761c7b4f708061e9e4be3b7d17/2.0",
+    "regexp": "FamilyMan",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "302628600",
+    "emote": "FootBall",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/302628600/2.0",
+    "regexp": "FootBall",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "302628617",
+    "emote": "FootGoal",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/302628617/2.0",
+    "regexp": "FootGoal",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "302628613",
+    "emote": "FootYellow",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/302628613/2.0",
+    "regexp": "FootYellow",
+    "source": "Twitch",
+    "score": 10010.99
+  },
+  {
+    "id": "65",
+    "emote": "FrankerZ",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/65/2.0",
+    "regexp": "FrankerZ",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "117701",
+    "emote": "FreakinStinkin",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/117701/2.0",
+    "regexp": "FreakinStinkin",
+    "source": "Twitch",
+    "score": 10014.99
+  },
+  {
+    "id": "98562",
+    "emote": "FutureMan",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/98562/2.0",
+    "regexp": "FutureMan",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "307827321",
+    "emote": "GayPride",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/307827321/2.0",
+    "regexp": "GayPride",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "307827326",
+    "emote": "GenderFluidPride",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/307827326/2.0",
+    "regexp": "GenderFluidPride",
+    "source": "Twitch",
+    "score": 10016.99
+  },
+  {
+    "id": "emotesv2_291135bb36d24d33bf53860128b5095c",
+    "emote": "Getcamped",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_291135bb36d24d33bf53860128b5095c/2.0",
+    "regexp": "Getcamped",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "32",
+    "emote": "GingerPower",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/32/2.0",
+    "regexp": "GingerPower",
+    "source": "Twitch",
+    "score": 10011.99
+  },
+  {
+    "id": "112291",
+    "emote": "GivePLZ",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/112291/2.0",
+    "regexp": "GivePLZ",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "304486301",
+    "emote": "GlitchCat",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/304486301/2.0",
+    "regexp": "GlitchCat",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "304489128",
+    "emote": "GlitchLit",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/304489128/2.0",
+    "regexp": "GlitchLit",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "304489309",
+    "emote": "GlitchNRG",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/304489309/2.0",
+    "regexp": "GlitchNRG",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "3632",
+    "emote": "GrammarKing",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/3632/2.0",
+    "regexp": "GrammarKing",
+    "source": "Twitch",
+    "score": 10011.99
+  },
+  {
+    "id": "1584743",
+    "emote": "GunRun",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1584743/2.0",
+    "regexp": "GunRun",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "444572",
+    "emote": "HSCheers",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/444572/2.0",
+    "regexp": "HSCheers",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "446979",
+    "emote": "HSWP",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/446979/2.0",
+    "regexp": "HSWP",
+    "source": "Twitch",
+    "score": 10004.99
+  },
+  {
+    "id": "emotesv2_8b0ac3eee4274a75868e3d0686d7b6f7",
+    "emote": "HarleyWink",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_8b0ac3eee4274a75868e3d0686d7b6f7/2.0",
+    "regexp": "HarleyWink",
+    "source": "Twitch",
+    "score": 10010.99
+  },
+  {
+    "id": "20225",
+    "emote": "HassaanChop",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/20225/2.0",
+    "regexp": "HassaanChop",
+    "source": "Twitch",
+    "score": 10011.99
+  },
+  {
+    "id": "30259",
+    "emote": "HeyGuys",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/30259/2.0",
+    "regexp": "HeyGuys",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "1713813",
+    "emote": "HolidayCookie",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1713813/2.0",
+    "regexp": "HolidayCookie",
+    "source": "Twitch",
+    "score": 10013.99
+  },
+  {
+    "id": "1713816",
+    "emote": "HolidayLog",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1713816/2.0",
+    "regexp": "HolidayLog",
+    "source": "Twitch",
+    "score": 10010.99
+  },
+  {
+    "id": "1713819",
+    "emote": "HolidayPresent",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1713819/2.0",
+    "regexp": "HolidayPresent",
+    "source": "Twitch",
+    "score": 10014.99
+  },
+  {
+    "id": "1713822",
+    "emote": "HolidaySanta",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1713822/2.0",
+    "regexp": "HolidaySanta",
+    "source": "Twitch",
+    "score": 10012.99
+  },
+  {
+    "id": "1713825",
+    "emote": "HolidayTree",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1713825/2.0",
+    "regexp": "HolidayTree",
+    "source": "Twitch",
+    "score": 10011.99
+  },
+  {
+    "id": "357",
+    "emote": "HotPokket",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/357/2.0",
+    "regexp": "HotPokket",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "emotesv2_535e40afa0b34a9481997627b1b47d96",
+    "emote": "HungryPaimon",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_535e40afa0b34a9481997627b1b47d96/2.0",
+    "regexp": "HungryPaimon",
+    "source": "Twitch",
+    "score": 10012.99
+  },
+  {
+    "id": "emotesv2_b0c6ccb3b12b4f99a9cc83af365a09f1",
+    "emote": "ImTyping",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_b0c6ccb3b12b4f99a9cc83af365a09f1/2.0",
+    "regexp": "ImTyping",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "307827332",
+    "emote": "IntersexPride",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/307827332/2.0",
+    "regexp": "IntersexPride",
+    "source": "Twitch",
+    "score": 10013.99
+  },
+  {
+    "id": "160396",
+    "emote": "InuyoFace",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/160396/2.0",
+    "regexp": "InuyoFace",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "133468",
+    "emote": "ItsBoshyTime",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/133468/2.0",
+    "regexp": "ItsBoshyTime",
+    "source": "Twitch",
+    "score": 10012.99
+  },
+  {
+    "id": "15",
+    "emote": "JKanStyle",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/15/2.0",
+    "regexp": "JKanStyle",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "114836",
+    "emote": "Jebaited",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/114836/2.0",
+    "regexp": "Jebaited",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "emotesv2_031bf329c21040a897d55ef471da3dd3",
+    "emote": "Jebasted",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_031bf329c21040a897d55ef471da3dd3/2.0",
+    "regexp": "Jebasted",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "26",
+    "emote": "JonCarnage",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/26/2.0",
+    "regexp": "JonCarnage",
+    "source": "Twitch",
+    "score": 10010.99
+  },
+  {
+    "id": "133537",
+    "emote": "KAPOW",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/133537/2.0",
+    "regexp": "KAPOW",
+    "source": "Twitch",
+    "score": 10005.99
+  },
+  {
+    "id": "emotesv2_7c5d25facc384c47963d25a5057a0b40",
+    "emote": "KEKHeim",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_7c5d25facc384c47963d25a5057a0b40/2.0",
+    "regexp": "KEKHeim",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "25",
+    "emote": "Kappa",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/25/2.0",
+    "regexp": "Kappa",
+    "source": "Twitch",
+    "score": 10005.99
+  },
+  {
+    "id": "74510",
+    "emote": "KappaClaus",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/74510/2.0",
+    "regexp": "KappaClaus",
+    "source": "Twitch",
+    "score": 10010.99
+  },
+  {
+    "id": "55338",
+    "emote": "KappaPride",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/55338/2.0",
+    "regexp": "KappaPride",
+    "source": "Twitch",
+    "score": 10010.99
+  },
+  {
+    "id": "70433",
+    "emote": "KappaRoss",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/70433/2.0",
+    "regexp": "KappaRoss",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "81997",
+    "emote": "KappaWealth",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/81997/2.0",
+    "regexp": "KappaWealth",
+    "source": "Twitch",
+    "score": 10011.99
+  },
+  {
+    "id": "160397",
+    "emote": "Kappu",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/160397/2.0",
+    "regexp": "Kappu",
+    "source": "Twitch",
+    "score": 10005.99
+  },
+  {
+    "id": "1902",
+    "emote": "Keepo",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1902/2.0",
+    "regexp": "Keepo",
+    "source": "Twitch",
+    "score": 10005.99
+  },
+  {
+    "id": "40",
+    "emote": "KevinTurtle",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/40/2.0",
+    "regexp": "KevinTurtle",
+    "source": "Twitch",
+    "score": 10011.99
+  },
+  {
+    "id": "1901",
+    "emote": "Kippa",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1901/2.0",
+    "regexp": "Kippa",
+    "source": "Twitch",
+    "score": 10005.99
+  },
+  {
+    "id": "81273",
+    "emote": "KomodoHype",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/81273/2.0",
+    "regexp": "KomodoHype",
+    "source": "Twitch",
+    "score": 10010.99
+  },
+  {
+    "id": "160400",
+    "emote": "KonCha",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/160400/2.0",
+    "regexp": "KonCha",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "41",
+    "emote": "Kreygasm",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/41/2.0",
+    "regexp": "Kreygasm",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "425618",
+    "emote": "LUL",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/425618/2.0",
+    "regexp": "LUL",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "emotesv2_ecb0bfd49b3c4325864b948d46c8152b",
+    "emote": "LaundryBasket",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_ecb0bfd49b3c4325864b948d46c8152b/2.0",
+    "regexp": "LaundryBasket",
+    "source": "Twitch",
+    "score": 10013.99
+  },
+  {
+    "id": "emotesv2_665235901db747b1bd395a5f1c0ab8a9",
+    "emote": "Lechonk",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_665235901db747b1bd395a5f1c0ab8a9/2.0",
+    "regexp": "Lechonk",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "307827340",
+    "emote": "LesbianPride",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/307827340/2.0",
+    "regexp": "LesbianPride",
+    "source": "Twitch",
+    "score": 10012.99
+  },
+  {
+    "id": "142140",
+    "emote": "MVGame",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/142140/2.0",
+    "regexp": "MVGame",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "30134",
+    "emote": "Mau5",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/30134/2.0",
+    "regexp": "Mau5",
+    "source": "Twitch",
+    "score": 10004.99
+  },
+  {
+    "id": "1290325",
+    "emote": "MaxLOL",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1290325/2.0",
+    "regexp": "MaxLOL",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "emotesv2_0be25a1663bd472495b91e0302cec166",
+    "emote": "MechaRobot",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_0be25a1663bd472495b91e0302cec166/2.0",
+    "regexp": "MechaRobot",
+    "source": "Twitch",
+    "score": 10010.99
+  },
+  {
+    "id": "1003187",
+    "emote": "MercyWing1",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1003187/2.0",
+    "regexp": "MercyWing1",
+    "source": "Twitch",
+    "score": 10010.99
+  },
+  {
+    "id": "1003189",
+    "emote": "MercyWing2",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1003189/2.0",
+    "regexp": "MercyWing2",
+    "source": "Twitch",
+    "score": 10010.99
+  },
+  {
+    "id": "81636",
+    "emote": "MikeHogu",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/81636/2.0",
+    "regexp": "MikeHogu",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "68856",
+    "emote": "MingLee",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/68856/2.0",
+    "regexp": "MingLee",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "emotesv2_a2dfbbbbf66f4a75b0f53db841523e6c",
+    "emote": "ModLove",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_a2dfbbbbf66f4a75b0f53db841523e6c/2.0",
+    "regexp": "ModLove",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "156787",
+    "emote": "MorphinTime",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/156787/2.0",
+    "regexp": "MorphinTime",
+    "source": "Twitch",
+    "score": 10011.99
+  },
+  {
+    "id": "28",
+    "emote": "MrDestructoid",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/28/2.0",
+    "regexp": "MrDestructoid",
+    "source": "Twitch",
+    "score": 10013.99
+  },
+  {
+    "id": "emotesv2_c0c9c932c82244ff920ad2134be90afb",
+    "emote": "MyAvatar",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_c0c9c932c82244ff920ad2134be90afb/2.0",
+    "regexp": "MyAvatar",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "emotesv2_53f6a6af8b0e453d874bbefee49b3e73",
+    "emote": "NewRecord",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_53f6a6af8b0e453d874bbefee49b3e73/2.0",
+    "regexp": "NewRecord",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "138325",
+    "emote": "NinjaGrumpy",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/138325/2.0",
+    "regexp": "NinjaGrumpy",
+    "source": "Twitch",
+    "score": 10011.99
+  },
+  {
+    "id": "90075",
+    "emote": "NomNom",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/90075/2.0",
+    "regexp": "NomNom",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "307827356",
+    "emote": "NonbinaryPride",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/307827356/2.0",
+    "regexp": "NonbinaryPride",
+    "source": "Twitch",
+    "score": 10014.99
+  },
+  {
+    "id": "34875",
+    "emote": "NotATK",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/34875/2.0",
+    "regexp": "NotATK",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "58765",
+    "emote": "NotLikeThis",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/58765/2.0",
+    "regexp": "NotLikeThis",
+    "source": "Twitch",
+    "score": 10011.99
+  },
+  {
+    "id": "555555572",
+    "emote": "O.O",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555572/2.0",
+    "regexp": "O\\.O",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "555555570",
+    "emote": "O.o",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555570/2.0",
+    "regexp": "O\\.o",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "81248",
+    "emote": "OSFrog",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/81248/2.0",
+    "regexp": "OSFrog",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "555555571",
+    "emote": "O_O",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555571/2.0",
+    "regexp": "O_O",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "555555569",
+    "emote": "O_o",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555569/2.0",
+    "regexp": "O_o",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "6",
+    "emote": "O_o",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/6/2.0",
+    "regexp": "O_o",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "81103",
+    "emote": "OhMyDog",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/81103/2.0",
+    "regexp": "OhMyDog",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "66",
+    "emote": "OneHand",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/66/2.0",
+    "regexp": "OneHand",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "100590",
+    "emote": "OpieOP",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/100590/2.0",
+    "regexp": "OpieOP",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "16",
+    "emote": "OptimizePrime",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/16/2.0",
+    "regexp": "OptimizePrime",
+    "source": "Twitch",
+    "score": 10013.99
+  },
+  {
+    "id": "36",
+    "emote": "PJSalt",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/36/2.0",
+    "regexp": "PJSalt",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "102556",
+    "emote": "PJSugar",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/102556/2.0",
+    "regexp": "PJSugar",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "92",
+    "emote": "PMSTwin",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/92/2.0",
+    "regexp": "PMSTwin",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "28328",
+    "emote": "PRChase",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/28328/2.0",
+    "regexp": "PRChase",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "3668",
+    "emote": "PanicVis",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/3668/2.0",
+    "regexp": "PanicVis",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "307827370",
+    "emote": "PansexualPride",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/307827370/2.0",
+    "regexp": "PansexualPride",
+    "source": "Twitch",
+    "score": 10014.99
+  },
+  {
+    "id": "965738",
+    "emote": "PartyHat",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/965738/2.0",
+    "regexp": "PartyHat",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "135393",
+    "emote": "PartyTime",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/135393/2.0",
+    "regexp": "PartyTime",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "3412",
+    "emote": "PeoplesChamp",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/3412/2.0",
+    "regexp": "PeoplesChamp",
+    "source": "Twitch",
+    "score": 10012.99
+  },
+  {
+    "id": "27509",
+    "emote": "PermaSmug",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/27509/2.0",
+    "regexp": "PermaSmug",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "111300",
+    "emote": "PicoMause",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/111300/2.0",
+    "regexp": "PicoMause",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "1003190",
+    "emote": "PinkMercy",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1003190/2.0",
+    "regexp": "PinkMercy",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "4240",
+    "emote": "PipeHype",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/4240/2.0",
+    "regexp": "PipeHype",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "1547903",
+    "emote": "PixelBob",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1547903/2.0",
+    "regexp": "PixelBob",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "emotesv2_f202746ed88f4e7c872b50b1f7fd78cc",
+    "emote": "PizzaTime",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_f202746ed88f4e7c872b50b1f7fd78cc/2.0",
+    "regexp": "PizzaTime",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "emotesv2_30050f4353aa4322b25b6b044703e5d1",
+    "emote": "PogBones",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_30050f4353aa4322b25b6b044703e5d1/2.0",
+    "regexp": "PogBones",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "305954156",
+    "emote": "PogChamp",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/305954156/2.0",
+    "regexp": "PogChamp",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "117484",
+    "emote": "Poooound",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/117484/2.0",
+    "regexp": "Poooound",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "724216",
+    "emote": "PopCorn",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/724216/2.0",
+    "regexp": "PopCorn",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "emotesv2_4c39207000564711868f3196cc0a8748",
+    "emote": "PoroSad",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_4c39207000564711868f3196cc0a8748/2.0",
+    "regexp": "PoroSad",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "emotesv2_e02650251d204198923de93a0c62f5f5",
+    "emote": "PotFriend",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_e02650251d204198923de93a0c62f5f5/2.0",
+    "regexp": "PotFriend",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "425688",
+    "emote": "PowerUpL",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/425688/2.0",
+    "regexp": "PowerUpL",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "425671",
+    "emote": "PowerUpR",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/425671/2.0",
+    "regexp": "PowerUpR",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "38586",
+    "emote": "PraiseIt",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/38586/2.0",
+    "regexp": "PraiseIt",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "115075",
+    "emote": "PrimeMe",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/115075/2.0",
+    "regexp": "PrimeMe",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "160401",
+    "emote": "PunOko",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/160401/2.0",
+    "regexp": "PunOko",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "47",
+    "emote": "PunchTrees",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/47/2.0",
+    "regexp": "PunchTrees",
+    "source": "Twitch",
+    "score": 10010.99
+  },
+  {
+    "id": "14",
+    "emote": "R)",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/14/2.0",
+    "regexp": "R\\)",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "555555599",
+    "emote": "R)",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555599/2.0",
+    "regexp": "R\\)",
+    "source": "Twitch",
+    "score": 10002.99
+  },
+  {
+    "id": "555555600",
+    "emote": "R-)",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555600/2.0",
+    "regexp": "R\\-\\)",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "114870",
+    "emote": "RaccAttack",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/114870/2.0",
+    "regexp": "RaccAttack",
+    "source": "Twitch",
+    "score": 10010.99
+  },
+  {
+    "id": "1900",
+    "emote": "RalpherZ",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1900/2.0",
+    "regexp": "RalpherZ",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "22",
+    "emote": "RedCoat",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/22/2.0",
+    "regexp": "RedCoat",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "245",
+    "emote": "ResidentSleeper",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/245/2.0",
+    "regexp": "ResidentSleeper",
+    "source": "Twitch",
+    "score": 10015.99
+  },
+  {
+    "id": "4338",
+    "emote": "RitzMitz",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/4338/2.0",
+    "regexp": "RitzMitz",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "134256",
+    "emote": "RlyTho",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/134256/2.0",
+    "regexp": "RlyTho",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "107030",
+    "emote": "RuleFive",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/107030/2.0",
+    "regexp": "RuleFive",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "emotesv2_0ebc590ba68447269831af61d8bc9e0d",
+    "emote": "RyuChamp",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_0ebc590ba68447269831af61d8bc9e0d/2.0",
+    "regexp": "RyuChamp",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "52",
+    "emote": "SMOrc",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/52/2.0",
+    "regexp": "SMOrc",
+    "source": "Twitch",
+    "score": 10005.99
+  },
+  {
+    "id": "46",
+    "emote": "SSSsss",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/46/2.0",
+    "regexp": "SSSsss",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "emotesv2_fcbeed664f7c47d6ba3b57691275ef51",
+    "emote": "SUBprise",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_fcbeed664f7c47d6ba3b57691275ef51/2.0",
+    "regexp": "SUBprise",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "160402",
+    "emote": "SabaPing",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/160402/2.0",
+    "regexp": "SabaPing",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "64138",
+    "emote": "SeemsGood",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/64138/2.0",
+    "regexp": "SeemsGood",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "81249",
+    "emote": "SeriousSloth",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/81249/2.0",
+    "regexp": "SeriousSloth",
+    "source": "Twitch",
+    "score": 10012.99
+  },
+  {
+    "id": "52492",
+    "emote": "ShadyLulu",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/52492/2.0",
+    "regexp": "ShadyLulu",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "87",
+    "emote": "ShazBotstix",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/87/2.0",
+    "regexp": "ShazBotstix",
+    "source": "Twitch",
+    "score": 10011.99
+  },
+  {
+    "id": "emotesv2_819621bcb8f44566a1bd8ea63d06c58f",
+    "emote": "Shush",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_819621bcb8f44566a1bd8ea63d06c58f/2.0",
+    "regexp": "Shush",
+    "source": "Twitch",
+    "score": 10005.99
+  },
+  {
+    "id": "300116349",
+    "emote": "SingsMic",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/300116349/2.0",
+    "regexp": "SingsMic",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "300116350",
+    "emote": "SingsNote",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/300116350/2.0",
+    "regexp": "SingsNote",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "89945",
+    "emote": "SmoocherZ",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/89945/2.0",
+    "regexp": "SmoocherZ",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "1906",
+    "emote": "SoBayed",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1906/2.0",
+    "regexp": "SoBayed",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "2113050",
+    "emote": "SoonerLater",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/2113050/2.0",
+    "regexp": "SoonerLater",
+    "source": "Twitch",
+    "score": 10011.99
+  },
+  {
+    "id": "191762",
+    "emote": "Squid1",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/191762/2.0",
+    "regexp": "Squid1",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "191763",
+    "emote": "Squid2",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/191763/2.0",
+    "regexp": "Squid2",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "191764",
+    "emote": "Squid3",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/191764/2.0",
+    "regexp": "Squid3",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "191767",
+    "emote": "Squid4",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/191767/2.0",
+    "regexp": "Squid4",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "90076",
+    "emote": "StinkyCheese",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/90076/2.0",
+    "regexp": "StinkyCheese",
+    "source": "Twitch",
+    "score": 10012.99
+  },
+  {
+    "id": "304486324",
+    "emote": "StinkyGlitch",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/304486324/2.0",
+    "regexp": "StinkyGlitch",
+    "source": "Twitch",
+    "score": 10012.99
+  },
+  {
+    "id": "17",
+    "emote": "StoneLightning",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/17/2.0",
+    "regexp": "StoneLightning",
+    "source": "Twitch",
+    "score": 10014.99
+  },
+  {
+    "id": "114876",
+    "emote": "StrawBeary",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/114876/2.0",
+    "regexp": "StrawBeary",
+    "source": "Twitch",
+    "score": 10010.99
+  },
+  {
+    "id": "118772",
+    "emote": "SuperVinlin",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/118772/2.0",
+    "regexp": "SuperVinlin",
+    "source": "Twitch",
+    "score": 10011.99
+  },
+  {
+    "id": "34",
+    "emote": "SwiftRage",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/34/2.0",
+    "regexp": "SwiftRage",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "143490",
+    "emote": "TBAngel",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/143490/2.0",
+    "regexp": "TBAngel",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "1899",
+    "emote": "TF2John",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1899/2.0",
+    "regexp": "TF2John",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "508650",
+    "emote": "TPFufun",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/508650/2.0",
+    "regexp": "TPFufun",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "323914",
+    "emote": "TPcrunchyroll",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/323914/2.0",
+    "regexp": "TPcrunchyroll",
+    "source": "Twitch",
+    "score": 10013.99
+  },
+  {
+    "id": "38436",
+    "emote": "TTours",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/38436/2.0",
+    "regexp": "TTours",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "112292",
+    "emote": "TakeNRG",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/112292/2.0",
+    "regexp": "TakeNRG",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "160403",
+    "emote": "TearGlove",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/160403/2.0",
+    "regexp": "TearGlove",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "160404",
+    "emote": "TehePelo",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/160404/2.0",
+    "regexp": "TehePelo",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "160392",
+    "emote": "ThankEgg",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/160392/2.0",
+    "regexp": "ThankEgg",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "145315",
+    "emote": "TheIlluminati",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/145315/2.0",
+    "regexp": "TheIlluminati",
+    "source": "Twitch",
+    "score": 10013.99
+  },
+  {
+    "id": "18",
+    "emote": "TheRinger",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/18/2.0",
+    "regexp": "TheRinger",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "111351",
+    "emote": "TheTarFu",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/111351/2.0",
+    "regexp": "TheTarFu",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "7427",
+    "emote": "TheThing",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/7427/2.0",
+    "regexp": "TheThing",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "1898",
+    "emote": "ThunBeast",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1898/2.0",
+    "regexp": "ThunBeast",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "111119",
+    "emote": "TinyFace",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/111119/2.0",
+    "regexp": "TinyFace",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "864205",
+    "emote": "TombRaid",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/864205/2.0",
+    "regexp": "TombRaid",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "114846",
+    "emote": "TooSpicy",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/114846/2.0",
+    "regexp": "TooSpicy",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "307827377",
+    "emote": "TransgenderPride",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/307827377/2.0",
+    "regexp": "TransgenderPride",
+    "source": "Twitch",
+    "score": 10016.99
+  },
+  {
+    "id": "120232",
+    "emote": "TriHard",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/120232/2.0",
+    "regexp": "TriHard",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "166263",
+    "emote": "TwitchLit",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/166263/2.0",
+    "regexp": "TwitchLit",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "1220086",
+    "emote": "TwitchRPG",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1220086/2.0",
+    "regexp": "TwitchRPG",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "300116344",
+    "emote": "TwitchSings",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/300116344/2.0",
+    "regexp": "TwitchSings",
+    "source": "Twitch",
+    "score": 10011.99
+  },
+  {
+    "id": "196892",
+    "emote": "TwitchUnity",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/196892/2.0",
+    "regexp": "TwitchUnity",
+    "source": "Twitch",
+    "score": 10011.99
+  },
+  {
+    "id": "479745",
+    "emote": "TwitchVotes",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/479745/2.0",
+    "regexp": "TwitchVotes",
+    "source": "Twitch",
+    "score": 10011.99
+  },
+  {
+    "id": "134255",
+    "emote": "UWot",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/134255/2.0",
+    "regexp": "UWot",
+    "source": "Twitch",
+    "score": 10004.99
+  },
+  {
+    "id": "111792",
+    "emote": "UnSane",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/111792/2.0",
+    "regexp": "UnSane",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "114856",
+    "emote": "UncleNox",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/114856/2.0",
+    "regexp": "UncleNox",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "301696583",
+    "emote": "VirtualHug",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/301696583/2.0",
+    "regexp": "VirtualHug",
+    "source": "Twitch",
+    "score": 10010.99
+  },
+  {
+    "id": "81274",
+    "emote": "VoHiYo",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/81274/2.0",
+    "regexp": "VoHiYo",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "106294",
+    "emote": "VoteNay",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/106294/2.0",
+    "regexp": "VoteNay",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "106293",
+    "emote": "VoteYea",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/106293/2.0",
+    "regexp": "VoteYea",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "114847",
+    "emote": "WTRuck",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/114847/2.0",
+    "regexp": "WTRuck",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "1896",
+    "emote": "WholeWheat",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/1896/2.0",
+    "regexp": "WholeWheat",
+    "source": "Twitch",
+    "score": 10010.99
+  },
+  {
+    "id": "emotesv2_1fda4a1b40094c93af334f8b60868a7c",
+    "emote": "WhySoSerious",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/emotesv2_1fda4a1b40094c93af334f8b60868a7c/2.0",
+    "regexp": "WhySoSerious",
+    "source": "Twitch",
+    "score": 10012.99
+  },
+  {
+    "id": "28087",
+    "emote": "WutFace",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/28087/2.0",
+    "regexp": "WutFace",
+    "source": "Twitch",
+    "score": 10007.99
+  },
+  {
+    "id": "134254",
+    "emote": "YouDontSay",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/134254/2.0",
+    "regexp": "YouDontSay",
+    "source": "Twitch",
+    "score": 10010.99
+  },
+  {
+    "id": "4337",
+    "emote": "YouWHY",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/4337/2.0",
+    "regexp": "YouWHY",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "62835",
+    "emote": "bleedPurple",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/62835/2.0",
+    "regexp": "bleedPurple",
+    "source": "Twitch",
+    "score": 10011.99
+  },
+  {
+    "id": "84608",
+    "emote": "cmonBruh",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/84608/2.0",
+    "regexp": "cmonBruh",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "112288",
+    "emote": "copyThis",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/112288/2.0",
+    "regexp": "copyThis",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "62834",
+    "emote": "duDudu",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/62834/2.0",
+    "regexp": "duDudu",
+    "source": "Twitch",
+    "score": 10006.99
+  },
+  {
+    "id": "112290",
+    "emote": "imGlitch",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/112290/2.0",
+    "regexp": "imGlitch",
+    "source": "Twitch",
+    "score": 10008.99
+  },
+  {
+    "id": "35063",
+    "emote": "mcaT",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/35063/2.0",
+    "regexp": "mcaT",
+    "source": "Twitch",
+    "score": 10004.99
+  },
+  {
+    "id": "555555574",
+    "emote": "o.O",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555574/2.0",
+    "regexp": "o\\.O",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "555555576",
+    "emote": "o.o",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555576/2.0",
+    "regexp": "o\\.o",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "555555573",
+    "emote": "o_O",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555573/2.0",
+    "regexp": "o_O",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "555555575",
+    "emote": "o_o",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/555555575/2.0",
+    "regexp": "o_o",
+    "source": "Twitch",
+    "score": 10003.99
+  },
+  {
+    "id": "22998",
+    "emote": "panicBasket",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/22998/2.0",
+    "regexp": "panicBasket",
+    "source": "Twitch",
+    "score": 10011.99
+  },
+  {
+    "id": "112289",
+    "emote": "pastaThat",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/112289/2.0",
+    "regexp": "pastaThat",
+    "source": "Twitch",
+    "score": 10009.99
+  },
+  {
+    "id": "62833",
+    "emote": "riPepperonis",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/62833/2.0",
+    "regexp": "riPepperonis",
+    "source": "Twitch",
+    "score": 10012.99
+  },
+  {
+    "id": "62836",
+    "emote": "twitchRaid",
+    "imageUrl": "https://static-cdn.jtvnw.net/emoticons/v1/62836/2.0",
+    "regexp": "twitchRaid",
+    "source": "Twitch",
+    "score": 10010.99
+  }
+]

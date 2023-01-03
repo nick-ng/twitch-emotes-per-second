@@ -10,11 +10,11 @@
   }
 
   body {
-    @apply bg-white text-black dark:bg-gray-800 dark:text-white;
+    @apply bg-black text-white;
   }
 
   a {
-    @apply text-blue-700 underline dark:text-blue-300;
+    @apply text-blue-300 underline;
   }
 
   summary {
@@ -31,7 +31,7 @@
 
   input,
   select {
-    @apply my-0.5 rounded border border-gray-300 bg-white dark:bg-gray-800;
+    @apply my-0.5 rounded border border-gray-300 bg-gray-800;
   }
 
   select {

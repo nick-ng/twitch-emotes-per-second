@@ -15,6 +15,8 @@ const optionsSchema = z.object({
   darkMode: z.enum(["light", "dark", "system"]),
   channel: z.string().nullable(),
   customEmotes: z.array(EmoteSchema),
+  autoHide: z.boolean(),
+  showThreshold: z.number(),
 });
 
 export type Options = z.infer<typeof optionsSchema>;
@@ -23,6 +25,8 @@ export const defaultOptions: Readonly<Options> = Object.freeze({
   darkMode: "system",
   channel: "",
   customEmotes: [],
+  autoHide: false,
+  showThreshold: 10,
 });
 
 const toggleDarkMode = (darkMode: Options["darkMode"]) => {

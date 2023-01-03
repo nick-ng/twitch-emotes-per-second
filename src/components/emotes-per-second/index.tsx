@@ -3,9 +3,15 @@ import { useEffect, useRef, useState } from "react";
 import type { Emote as EmoteType } from "../../schemas";
 import { useOptions } from "../../hooks/options-context";
 import { useTwitchChatMessages } from "../../hooks/twitch-chat-messages";
-import { fetchBetterTTVEmotes, fetchGlobalBetterTTVEmotes } from "./better-ttv";
+import { fetchGlobalTwitchEmotes } from "./twitch-emotes";
+import {
+  fetchBetterTTVEmotes,
+  fetchGlobalBetterTTVEmotes,
+  fetchFrankerfacezBetterTTVEmotes,
+} from "./better-ttv";
 import { fetchSevenTVEmotes, fetchGlobalSevenTVEmotes } from "./seven-tv";
 import TimeStats from "./time-stats";
+import TwitchEmbed from "./twitch-embed";
 
 type EmoteCounts = EmoteType & { count: number };
 
@@ -19,7 +25,7 @@ const updatePeriodMS = 1000;
 
 export default function EmotesPerSecond() {
   const { options, setOptions } = useOptions();
-  const { channel } = options;
+  const { channel, autoHide, showThreshold } = options;
   const { messages, channelInfo } = useTwitchChatMessages(channel);
 
   const [tempChannel, setTempChannel] = useState(channel || "");
@@ -37,10 +43,16 @@ export default function EmotesPerSecond() {
         const temp = await Promise.all([
           fetchBetterTTVEmotes(channelInfo.roomId),
           fetchGlobalBetterTTVEmotes(),
+          fetchFrankerfacezBetterTTVEmotes(),
           fetchSevenTVEmotes(channelInfo.roomId),
           fetchGlobalSevenTVEmotes(),
+          // fetchTwitchEmotes(channelInfo.roomId),
+          fetchGlobalTwitchEmotes(),
         ]);
-        setEmotes(temp.flat().sort((a, b) => b.score - a.score));
+
+        const tempEmotes = temp.flat().sort((a, b) => b.score - a.score);
+
+        setEmotes(tempEmotes);
       }
     })();
   }, [
@@ -114,60 +126,100 @@ export default function EmotesPerSecond() {
     oldestMessage &&
     (Date.now() - new Date(oldestMessage.timestamp).valueOf()) / (1000 * 60);
 
+  const totalEmotes =
+    timeStats[0]?.emoteCounts.reduce((prev, curr) => prev + curr.count, 0) || 0;
+
   return (
-    <div>
-      <form
-        onSubmit={(e) => {
-          e.preventDefault();
-          setOptions({ channel: tempChannel });
-        }}
-      >
-        <label>
-          Channel:{" "}
-          <input
-            className="inline-block rounded-r-none"
-            type="text"
-            value={tempChannel}
-            onChange={(e) => {
-              setTempChannel(e.target.value);
-            }}
-          />
-        </label>
+    <div className="relative flex flex-row items-start">
+      <TwitchEmbed channel={channel} />
+      <div className="mx-1">
         <button
-          className="my-0.5 inline-block rounded-r border border-gray-300 bg-white px-2 dark:bg-gray-800"
-          disabled={tempChannel === channel}
+          className={`absolute top-0 right-0 rounded border border-gray-300 bg-gray-800 px-2 transition-opacity hover:opacity-100 ${
+            autoHide ? "opacity-0" : ""
+          }`}
+          onClick={() => {
+            setOptions({ autoHide: !autoHide });
+          }}
         >
-          Save
+          Auto Hide: {autoHide ? showThreshold : "Off"}
         </button>
-      </form>
-      {oldestMessage && (
-        <div>
-          Oldest Message Age: {Math.floor(oldestMessageAgeMinutes)}:
-          {Math.floor((oldestMessageAgeMinutes % 1) * 60)
-            .toString()
-            .padStart(2, "0")}{" "}
-          minutes
-        </div>
-      )}
-      {timeStats.length > 0 && (
-        <TimeStats
-          emoteCounts={timeStats[0].emoteCounts}
-          endTime={timeStats[0].endTime}
-          timePeriodMS={timePeriodMS}
-        />
-      )}
-      <details>
-        <summary>Past Stats</summary>
-        {timeStats.slice(1).map(({ emoteCounts, endTime }, i) => (
-          <div className="my-0.5" key={endTime}>
+        <div
+          className={`overflow-x-hidden transition-all duration-300 ${
+            autoHide && totalEmotes < showThreshold ? "w-0" : "w-[512px]"
+          }`}
+        >
+          <h1>Twitch Emotes Per Second</h1>
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+              setOptions({ channel: tempChannel });
+            }}
+          >
+            <label>
+              Channel:{" "}
+              <input
+                className="inline-block rounded-r-none pl-0.5"
+                type="text"
+                value={tempChannel}
+                onChange={(e) => {
+                  setTempChannel(e.target.value);
+                }}
+              />
+            </label>
+            <button
+              className="my-0.5 inline-block rounded-r border border-gray-300 bg-gray-800 px-2"
+              disabled={tempChannel === channel}
+            >
+              Save
+            </button>
+          </form>
+          <label className="">
+            Auto Show Total Emote Count:{" "}
+            <input
+              className="w-14"
+              type="number"
+              value={showThreshold}
+              onChange={(e) => {
+                const temp = parseInt(e.target.value);
+
+                if (isNaN(temp)) {
+                  setOptions({ showThreshold: 0 });
+                } else {
+                  setOptions({ showThreshold: temp });
+                }
+              }}
+            />
+          </label>
+          {oldestMessage && (
+            <div>
+              Oldest Message Age: {Math.floor(oldestMessageAgeMinutes)}:
+              {Math.floor((oldestMessageAgeMinutes % 1) * 60)
+                .toString()
+                .padStart(2, "0")}{" "}
+              minutes
+            </div>
+          )}
+          {timeStats.length > 0 && (
             <TimeStats
-              emoteCounts={emoteCounts}
-              endTime={endTime}
+              emoteCounts={timeStats[0].emoteCounts}
+              endTime={timeStats[0].endTime}
               timePeriodMS={timePeriodMS}
             />
-          </div>
-        ))}
-      </details>
+          )}
+          <details>
+            <summary>Past Stats</summary>
+            {timeStats.slice(1).map(({ emoteCounts, endTime }, i) => (
+              <div className="my-0.5" key={endTime}>
+                <TimeStats
+                  emoteCounts={emoteCounts}
+                  endTime={endTime}
+                  timePeriodMS={timePeriodMS}
+                />
+              </div>
+            ))}
+          </details>
+        </div>
+      </div>
     </div>
   );
 }

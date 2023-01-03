@@ -19,28 +19,28 @@ export default function TimeStats({
         {new Date(endTime).toLocaleTimeString()}, last {timePeriodMS / 1000}{" "}
         seconds
       </span>
-      <table>
+      <table className="text-sm">
         <thead>
           <tr>
-            <th className="border border-gray-300 px-0.5">Picture</th>
-            <th className="border border-gray-300 px-0.5">Emote</th>
+            <th className="w-44 border border-gray-300 px-0.5">Picture</th>
+            <th className="w-36 border border-gray-300 px-0.5">Emote</th>
             <th className="border border-gray-300 px-0.5">Count</th>
             <th className="border border-gray-300 px-0.5 text-right">
               per Second
             </th>
-            <th className="border border-gray-300 px-0.5 text-right">
-              per Minute
+            <th className="w-16 border border-gray-300 px-0.5 text-center">
+              Source
             </th>
           </tr>
         </thead>
         <tbody>
           {emoteCounts
             .sort((a, b) => b.count - a.count)
-            .map(({ count, emote, id, imageUrl }) => {
+            .map(({ count, emote, id, imageUrl, source }) => {
               const perSecond = count / (timePeriodMS / 1000);
               return (
                 <tr key={id}>
-                  <td className="border border-gray-300 px-0.5 text-center">
+                  <td className="flex justify-center border border-gray-300 px-0.5">
                     <img
                       className="max-h-14"
                       src={imageUrl || ""}
@@ -49,7 +49,7 @@ export default function TimeStats({
                     />
                   </td>
                   <td className="border border-gray-300 px-0.5 text-center">
-                    <input className="w-32" value={emote} readOnly />
+                    <input className="w-32 pl-0.5" value={emote} readOnly />
                   </td>
                   <td className="border border-gray-300 px-0.5 text-center">
                     {count}
@@ -57,8 +57,8 @@ export default function TimeStats({
                   <td className="border border-gray-300 px-0.5 text-right">
                     {perSecond.toFixed(2)}
                   </td>
-                  <td className="border border-gray-300 px-0.5 text-right">
-                    {perSecond * 60}
+                  <td className="border border-gray-300 px-0.5 text-center">
+                    {source}
                   </td>
                 </tr>
               );

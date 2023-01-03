@@ -28,3 +28,9 @@ export const BetterTTVEmoteSchema = z.object({
   id: z.string(),
   imageType: z.string(),
 });
+
+export const TwitchEmoteSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  images: z.record(z.string(), z.string()),
+});
