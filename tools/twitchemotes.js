@@ -51,3 +51,5 @@ const main = async () => {
 };
 
 main();
+
+// https://static-cdn.jtvnw.net/emoticons/v1/555555628/2.0

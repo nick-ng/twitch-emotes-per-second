@@ -4,7 +4,6 @@ import { useParams } from "react-router-dom";
 import type { Emote as EmoteType } from "../../schemas";
 import { useOptions } from "../../hooks/options-context";
 import { useTwitchChatMessages } from "../../hooks/twitch-chat-messages";
-import { fetchGlobalTwitchEmotes } from "./twitch-emotes";
 import {
   fetchBetterTTVEmotes,
   fetchGlobalBetterTTVEmotes,
@@ -43,15 +42,13 @@ export default function EmotesPerSecond() {
   useEffect(() => {
     (async () => {
       if (channelInfo.roomId) {
-        console.info("updating emotes");
+        console.info(new Date().toLocaleTimeString(), "updating emotes");
         const temp = await Promise.all([
           fetchBetterTTVEmotes(channelInfo.roomId),
           fetchGlobalBetterTTVEmotes(),
           fetchFrankerfacezBetterTTVEmotes(),
           fetchSevenTVEmotes(channelInfo.roomId),
           fetchGlobalSevenTVEmotes(),
-          // fetchTwitchEmotes(channelInfo.roomId),
-          fetchGlobalTwitchEmotes(),
         ]);
 
         const tempEmotes = temp.flat().sort((a, b) => b.score - a.score);
@@ -69,6 +66,15 @@ export default function EmotesPerSecond() {
     messages
       .filter((message) => message.timestamp > checkTimestamp - timePeriodMS)
       .forEach((message) => {
+        message.emoteCounts.forEach((twitchEmote) => {
+          if (!temp[twitchEmote.emote]) {
+            temp[twitchEmote.emote] = { ...twitchEmote };
+          } else {
+            temp[twitchEmote.emote].count =
+              temp[twitchEmote.emote].count + twitchEmote.count;
+          }
+        });
+
         let tempMessage = message.message;
         for (const emote of emotes) {
           const re = new RegExp(emote.regexp, "g");

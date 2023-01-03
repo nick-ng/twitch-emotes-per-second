@@ -17,6 +17,7 @@ export default function TwitchEmbed({ channel }: TwitchEmbedProps) {
           height: "100%",
           channel,
           theme: "dark",
+          muted: false,
         });
       } else {
         const player = twitchPlayer.current.getPlayer();
