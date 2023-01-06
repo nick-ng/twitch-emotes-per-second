@@ -163,7 +163,7 @@ export default function EmotesPerSecond() {
   }
 
   return (
-    <div className="relative flex flex-row-reverse items-start">
+    <div className="relative flex flex-row items-start">
       <TwitchEmbed channel={urlChannel || channel} />
       <div className="mx-1">
         <button
