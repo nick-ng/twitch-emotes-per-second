@@ -53,7 +53,9 @@ export function useTwitchChatMessages(channel: string | null) {
 
     client
       .connect()
-      .then((_e) => {})
+      .then((_e) => {
+        console.log(`connected to ${channel}`);
+      })
       .catch((e) => {
         console.error(e);
       });

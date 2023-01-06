@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useSearchParams } from "react-router-dom";
 
 import type { Emote as EmoteType } from "../../schemas";
 import { useOptions } from "../../hooks/options-context";
@@ -25,6 +25,10 @@ const updatePeriodMS = 1000;
 
 export default function EmotesPerSecond() {
   const { urlChannel } = useParams();
+  const [searchParams, _] = useSearchParams();
+  const iframeMode = searchParams.get("iframe") === "true";
+  const parentFrameUrl =
+    searchParams.get("parenturl") || "http://localhost:5173/";
   const { options, setOptions } = useOptions();
   const { channel, autoHide, showThreshold } = options;
   const { messages, channelInfo } = useTwitchChatMessages(
@@ -54,6 +58,7 @@ export default function EmotesPerSecond() {
         const tempEmotes = temp.flat().sort((a, b) => b.score - a.score);
 
         setEmotes(tempEmotes);
+        console.info(new Date().toLocaleTimeString(), "updated emotes");
       }
     })();
   }, [
@@ -139,8 +144,26 @@ export default function EmotesPerSecond() {
   const totalEmotes =
     timeStats[0]?.emoteCounts.reduce((prev, curr) => prev + curr.count, 0) || 0;
 
+  useEffect(() => {
+    if (!iframeMode || timeStats.length === 0) {
+      return;
+    }
+
+    window.parent.postMessage(
+      {
+        emoteCounts: timeStats[0].emoteCounts,
+        totalEmotes: totalEmotes,
+      },
+      parentFrameUrl
+    );
+  }, [timeStats]);
+
+  if (iframeMode) {
+    return <div>iframe mode</div>;
+  }
+
   return (
-    <div className="relative flex flex-row items-start">
+    <div className="relative flex flex-row-reverse items-start">
       <TwitchEmbed channel={urlChannel || channel} />
       <div className="mx-1">
         <button
