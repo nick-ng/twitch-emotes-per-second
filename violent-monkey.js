@@ -3,7 +3,7 @@
 // @namespace   https://github.com/nick-ng/twitch-emotes-per-second
 // @match       https://www.twitch.tv/*
 // @grant       none
-// @version     1.0
+// @version     1.1.0
 // @author      https://github.com/nick-ng
 // @description Show emote counters on Twitch
 // @run-at      document-idle
@@ -23,6 +23,7 @@
   if (oldElement1) {
     oldElement1.remove();
   }
+  let currentChannel = null;
 
   /**
    * helper functions
@@ -60,15 +61,35 @@
     id: ID,
   });
 
-  const url = `https://emotes-per-second.pux.one${
-    location.pathname
-  }?iframe=true&parenturl=${encodeURIComponent(location.href)}`;
+  const makeIframe = () => {
+    if (
+      ["/directory", "/u", "/settings"].some((pn) =>
+        location.pathname.startsWith(pn)
+      ) ||
+      location.pathname === currentChannel
+    ) {
+      return;
+    }
 
-  makeElement("iframe", bodyEl, null, {
-    src: url,
-    style: ["position: absolute;", "opacity: 0;"].join(""),
-    id: `${ID}-1`,
-  });
+    currentChannel = location.pathname;
+
+    const oldElement1 = document.getElementById(`${ID}-1`);
+    if (oldElement1) {
+      oldElement1.remove();
+    }
+
+    const url = `https://emotes-per-second.pux.one${
+      location.pathname
+    }?iframe=true&parenturl=${encodeURIComponent(location.href)}`;
+
+    makeElement("iframe", bodyEl, null, {
+      src: url,
+      style: ["position: absolute;", "opacity: 0;"].join(""),
+      id: `${ID}-1`,
+    });
+  };
+
+  makeIframe();
 
   /**
    * Functions
@@ -120,7 +141,7 @@
             ].join(";"),
           });
           makeElement("img", tempEmoteCard, null, {
-            style: [`max-height: ${px}px;`, "display: block"].join(";"),
+            style: [`height: ${px}px;`, "display: block"].join(";"),
             src: imageUrl,
             title: emote,
             alt: emote,
@@ -130,5 +151,11 @@
           });
         }
       });
+  });
+
+  bodyEl.addEventListener("click", (event) => {
+    setTimeout(() => {
+      makeIframe();
+    }, 1000);
   });
 })();
