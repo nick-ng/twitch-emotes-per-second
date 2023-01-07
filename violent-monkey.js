@@ -3,7 +3,7 @@
 // @namespace   https://github.com/nick-ng/twitch-emotes-per-second
 // @match       https://www.twitch.tv/*
 // @grant       none
-// @version     1.1.0
+// @version     1.1.1
 // @author      https://github.com/nick-ng
 // @description Show emote counters on Twitch
 // @downloadURL https://raw.githubusercontent.com/nick-ng/twitch-emotes-per-second/main/violent-monkey.js
