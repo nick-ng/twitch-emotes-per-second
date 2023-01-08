@@ -3,7 +3,7 @@
 // @namespace   https://github.com/nick-ng/twitch-emotes-per-second
 // @match       https://www.twitch.tv/*
 // @grant       none
-// @version     1.1.2
+// @version     1.1.3
 // @author      https://github.com/nick-ng
 // @description Show emote counters on Twitch
 // @downloadURL https://raw.githubusercontent.com/nick-ng/twitch-emotes-per-second/main/violent-monkey.js
@@ -13,7 +13,10 @@
 (() => {
   const EMOTE_COUNT_THRESHOLD = 1;
   const EMOTE_LIMIT = 10;
-  const SIZE_ADJUSTMENT = 5;
+  const MIN_SIZE_PX = 32;
+  const MAX_SIZE_PX = 100;
+  const NORMAL_SIZE_PX = 56;
+  const NORMAL_COUNT = 3;
 
   const ID = "0628c876-ebae-4107-8f68-377e9d5e144f";
   const oldElement = document.getElementById(ID);
@@ -101,6 +104,15 @@
     });
   };
 
+  const getImageSize = (thisCount, maxCount = 3) => {
+    const maxSize = Math.min(
+      MAX_SIZE_PX,
+      (maxCount / NORMAL_COUNT) * NORMAL_SIZE_PX
+    );
+
+    return Math.max(MIN_SIZE_PX, (thisCount / maxCount) * maxSize);
+  };
+
   /**
    * Event Handlers
    */
@@ -116,7 +128,6 @@
     clearMainEl();
 
     const maxCount = Math.max(...data.emoteCounts.map((a) => a.count)) || 0;
-    const baseSize = Math.min(64, 32 + (maxCount - 1) * 16);
 
     data.emoteCounts
       ?.sort((a, b) => b.count - a.count)
@@ -124,13 +135,6 @@
       .forEach((emoteCount) => {
         const { count, emote, imageUrl } = emoteCount;
         if (count >= EMOTE_COUNT_THRESHOLD) {
-          const px = Math.max(
-            24,
-            Math.min(
-              64,
-              (baseSize * count) / Math.min(maxCount, SIZE_ADJUSTMENT)
-            )
-          );
           const tempEmoteCard = makeElement("div", mainEl, null, {
             style: [
               "text-align: center;",
@@ -142,7 +146,10 @@
             ].join(";"),
           });
           makeElement("img", tempEmoteCard, null, {
-            style: [`height: ${px}px;`, "display: block"].join(";"),
+            style: [
+              `height: ${getImageSize(count, maxCount)}px;`,
+              "display: block",
+            ].join(";"),
             src: imageUrl,
             title: emote,
             alt: emote,
