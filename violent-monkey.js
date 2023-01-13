@@ -3,7 +3,7 @@
 // @namespace   https://github.com/nick-ng/twitch-emotes-per-second
 // @match       https://www.twitch.tv/*
 // @grant       none
-// @version     1.1.3
+// @version     1.1.4
 // @author      https://github.com/nick-ng
 // @description Show emote counters on Twitch
 // @downloadURL https://raw.githubusercontent.com/nick-ng/twitch-emotes-per-second/main/violent-monkey.js
@@ -55,8 +55,8 @@
   const mainEl = makeElement("div", bodyEl, null, {
     style: [
       "position: absolute;",
-      "top: 0;",
-      "right: 0;",
+      "top: 50px;",
+      "right: 340px;",
       "z-index: 9001;",
       "display: flex;",
       `flex-direction: ${"column"}`,
@@ -127,6 +127,16 @@
 
     clearMainEl();
 
+    if (
+      [
+        ...document.getElementsByClassName(
+          "channel-root__right-column channel-root__right-column--expanded"
+        ),
+      ].length === 0
+    ) {
+      return;
+    }
+
     const maxCount = Math.max(...data.emoteCounts.map((a) => a.count)) || 0;
 
     data.emoteCounts
@@ -161,9 +171,15 @@
       });
   });
 
-  bodyEl.addEventListener("click", (event) => {
+  // Check if you've gone to watch a different streamer
+  bodyEl.addEventListener("click", (_event) => {
     setTimeout(() => {
       makeIframe();
     }, 1000);
   });
+
+  // Check if the streamer raided someone.
+  setInterval(() => {
+    makeIframe();
+  }, 10000);
 })();
