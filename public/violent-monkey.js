@@ -3,7 +3,7 @@
 // @namespace   https://github.com/nick-ng/twitch-emotes-per-second
 // @match       https://www.twitch.tv/*
 // @grant       none
-// @version     1.1.6
+// @version     1.1.7
 // @author      https://github.com/nick-ng
 // @description Show emote counters on Twitch
 // @downloadURL https://emotes-per-second.pux.one/violent-monkey.js
@@ -110,11 +110,12 @@
     headEl,
     `
   .parent-hover-${ID} {
-    display: none;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
   }
 
   .parent-${ID}:hover .parent-hover-${ID} {
-    display: block;
+    opacity: 1;
   }
   `,
     { id: getNextElementId() }
