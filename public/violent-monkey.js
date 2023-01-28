@@ -3,7 +3,7 @@
 // @namespace   https://github.com/nick-ng/twitch-emotes-per-second
 // @match       https://www.twitch.tv/*
 // @grant       none
-// @version     1.1.7
+// @version     1.2
 // @author      https://github.com/nick-ng
 // @description Show emote counters on Twitch
 // @downloadURL https://emotes-per-second.pux.one/violent-monkey.js
@@ -20,28 +20,18 @@
 
   const ID = "0628c876-ebae-4107-8f68-377e9d5e144f";
 
-  const oldIframeElement = document.getElementById(`${ID}-iframe`);
-  if (oldIframeElement) {
-    oldIframeElement.remove();
-  }
-
-  for (let i = 0; i < 3; i++) {
-    const tempOldElement = document.getElementById(`${ID}-${i}`);
-    if (tempOldElement) {
-      tempOldElement.remove();
-    }
-  }
+  [...document.getElementsByClassName(ID)].forEach((el) => {
+    el.remove();
+  });
 
   let currentChannel = null;
 
   /**
    * helper functions
    */
-  let counter = 0;
-  const getNextElementId = () => `${ID}-${counter++}`;
-
   const makeElement = (tag, parent, text, attributes) => {
     const tempElement = document.createElement(tag);
+    tempElement.classList.add(ID);
     if (text) {
       tempElement.textContent = text;
     }
@@ -70,11 +60,10 @@
       `flex-direction: ${"column"}`,
       "align-items: flex-end",
     ].join(";"),
-    id: getNextElementId(),
   });
   mainEl.classList.add(`parent-${ID}`);
 
-  const makeIframe = () => {
+  const changeStreamer = () => {
     if (
       ["/directory", "/u", "/settings"].some((pn) =>
         location.pathname.startsWith(pn)
@@ -85,6 +74,25 @@
     }
 
     currentChannel = location.pathname;
+
+    const oldAnchorElement = document.getElementById(`${ID}-a`);
+    if (oldAnchorElement) {
+      oldAnchorElement.remove();
+    }
+
+    const topNavContainer = [
+      ...document.getElementsByClassName("top-nav__search-container"),
+    ][0];
+    makeElement(
+      "a",
+      topNavContainer.parentElement,
+      `${currentChannel}'s Nightbot Commands`,
+      {
+        href: `https://nightbot.tv/t/${currentChannel}/commands`,
+        target: "_blank",
+        id: `${ID}-a`,
+      }
+    );
 
     const oldIframeElement = document.getElementById(`${ID}-iframe`);
     if (oldIframeElement) {
@@ -102,7 +110,7 @@
     });
   };
 
-  makeIframe();
+  changeStreamer();
 
   const headEl = document.getElementsByTagName("head")[0];
   makeElement(
@@ -117,8 +125,7 @@
   .parent-${ID}:hover .parent-hover-${ID} {
     opacity: 1;
   }
-  `,
-    { id: getNextElementId() }
+  `
   );
 
   /**
@@ -232,12 +239,12 @@
   // Check if you've gone to watch a different streamer
   bodyEl.addEventListener("click", (_event) => {
     setTimeout(() => {
-      makeIframe();
+      changeStreamer();
     }, 1000);
   });
 
   // Check if the streamer raided someone.
   setInterval(() => {
-    makeIframe();
+    changeStreamer();
   }, 10000);
 })();
