@@ -3,7 +3,7 @@
 // @namespace   https://github.com/nick-ng/twitch-emotes-per-second
 // @match       https://www.twitch.tv/*
 // @grant       none
-// @version     1.2
+// @version     1.3
 // @author      https://github.com/nick-ng
 // @description Show emote counters on Twitch
 // @downloadURL https://emotes-per-second.pux.one/violent-monkey.js
@@ -73,7 +73,7 @@
       return;
     }
 
-    currentChannel = location.pathname;
+    currentChannel = location.pathname.replace("/", "");
 
     const oldAnchorElement = document.getElementById(`${ID}-a`);
     if (oldAnchorElement) {
@@ -110,7 +110,9 @@
     });
   };
 
-  changeStreamer();
+  setTimeout(() => {
+    changeStreamer();
+  }, 2000);
 
   const headEl = document.getElementsByTagName("head")[0];
   makeElement(
