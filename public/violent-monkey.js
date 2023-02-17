@@ -3,7 +3,7 @@
 // @namespace   https://github.com/nick-ng/twitch-emotes-per-second
 // @match       https://www.twitch.tv/*
 // @grant       none
-// @version     1.7
+// @version     1.8
 // @author      https://github.com/nick-ng
 // @description Show emote counters on Twitch
 // @downloadURL https://emotes-per-second.pux.one/violent-monkey.js
@@ -46,7 +46,7 @@
     return tempElement;
   };
 
-  const getMainElStyle = ({ right, top }) =>
+  const getMainElStyle = ({ right, top } = {}) =>
     [
       "position: absolute;",
       `top: ${top || 50}px;`,
