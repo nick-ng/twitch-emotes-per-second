@@ -3,7 +3,7 @@
 // @namespace   https://github.com/nick-ng/twitch-emotes-per-second
 // @match       https://www.twitch.tv/*
 // @grant       none
-// @version     1.3
+// @version     1.4
 // @author      https://github.com/nick-ng
 // @description Show emote counters on Twitch
 // @downloadURL https://emotes-per-second.pux.one/violent-monkey.js
@@ -99,9 +99,9 @@
       oldIframeElement.remove();
     }
 
-    const url = `https://emotes-per-second.pux.one${
+    const url = `https://emotes-per-second.pux.one/?channel=${
       location.pathname
-    }?iframe=true&parenturl=${encodeURIComponent(location.href)}`;
+    }&iframe=true&parenturl=${encodeURIComponent(location.href)}`;
 
     makeElement("iframe", bodyEl, null, {
       src: url,

@@ -64,7 +64,7 @@ export default function EmotesPerSecond() {
     })();
   }, [
     channelInfo.roomId,
-    Math.floor(checkTimestamp / updatePeriodMS / (30 * 60)),
+    Math.floor(checkTimestamp / updatePeriodMS / (5 * 60)),
   ]);
 
   useEffect(() => {
