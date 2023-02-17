@@ -3,7 +3,7 @@
 // @namespace   https://github.com/nick-ng/twitch-emotes-per-second
 // @match       https://www.twitch.tv/*
 // @grant       none
-// @version     1.5
+// @version     1.6
 // @author      https://github.com/nick-ng
 // @description Show emote counters on Twitch
 // @downloadURL https://emotes-per-second.pux.one/violent-monkey.js
@@ -64,16 +64,17 @@
   mainEl.classList.add(`parent-${ID}`);
 
   const changeStreamer = () => {
+    const newChannel = location.pathname.replace("/", "");
     if (
       ["/directory", "/u", "/settings"].some((pn) =>
         location.pathname.startsWith(pn)
       ) ||
-      location.pathname === currentChannel
+      newChannel === currentChannel
     ) {
       return;
     }
 
-    currentChannel = location.pathname.replace("/", "");
+    currentChannel = newChannel;
 
     const oldAnchorElement = document.getElementById(`${ID}-a`);
     if (oldAnchorElement) {
