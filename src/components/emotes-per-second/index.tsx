@@ -27,12 +27,13 @@ export default function EmotesPerSecond() {
   const { urlChannel } = useParams();
   const [searchParams, _] = useSearchParams();
   const iframeMode = searchParams.get("iframe") === "true";
+  const queryChannel = searchParams.get("channel");
   const parentFrameUrl =
     searchParams.get("parenturl") || "http://localhost:5173/";
   const { options, setOptions } = useOptions();
   const { channel, autoHide, showThreshold } = options;
   const { messages, channelInfo } = useTwitchChatMessages(
-    urlChannel || channel
+    queryChannel || urlChannel || channel
   );
 
   const [tempChannel, setTempChannel] = useState(channel || "");
