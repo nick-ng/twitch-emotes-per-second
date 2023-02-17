@@ -3,7 +3,7 @@
 // @namespace   https://github.com/nick-ng/twitch-emotes-per-second
 // @match       https://www.twitch.tv/*
 // @grant       none
-// @version     1.6
+// @version     1.7
 // @author      https://github.com/nick-ng
 // @description Show emote counters on Twitch
 // @downloadURL https://emotes-per-second.pux.one/violent-monkey.js
@@ -46,20 +46,23 @@
     return tempElement;
   };
 
+  const getMainElStyle = ({ right, top }) =>
+    [
+      "position: absolute;",
+      `top: ${top || 50}px;`,
+      `right: ${right || 340}px;`,
+      "z-index: 9001;",
+      "display: flex;",
+      `flex-direction: ${"column"}`,
+      "align-items: flex-end",
+    ].join(";");
+
   /**
    * DOM Elements
    */
   const bodyEl = document.getElementsByTagName("body")[0];
   const mainEl = makeElement("div", bodyEl, null, {
-    style: [
-      "position: absolute;",
-      "top: 50px;",
-      "right: 340px;",
-      "z-index: 9001;",
-      "display: flex;",
-      `flex-direction: ${"column"}`,
-      "align-items: flex-end",
-    ].join(";"),
+    style: getMainElStyle(),
   });
   mainEl.classList.add(`parent-${ID}`);
 
@@ -163,29 +166,26 @@
 
     clearMainEl();
 
-    const isTheaterMode =
-      [...document.getElementsByClassName("right-column--theatre")].length > 0;
+    const playerEl = document.querySelectorAll(".persistent-player")[0];
 
-    const isTheaterModeChatCollapsed =
-      [
-        ...document.getElementsByClassName(
-          "right-column--collapsed right-column--theatre"
-        ),
-      ].length > 0;
-
-    const isNormalChatCollapsed =
-      [
-        ...document.getElementsByClassName(
-          "channel-root__right-column channel-root__right-column--expanded"
-        ),
-      ].length === 0;
-
-    if (
-      (isTheaterMode && isTheaterModeChatCollapsed) ||
-      isNormalChatCollapsed
-    ) {
+    if (!playerEl) {
       return;
     }
+
+    const { right: playerElEright, top: playerElTop } =
+      playerEl.getBoundingClientRect();
+    const rightOffset = window.innerWidth - playerElEright;
+
+    const isChatCollapsed = rightOffset === 0;
+
+    if (isChatCollapsed) {
+      return;
+    }
+
+    mainEl.setAttribute(
+      "style",
+      getMainElStyle({ right: rightOffset, top: playerElTop })
+    );
 
     const maxCount = Math.max(...data.emoteCounts.map((a) => a.count)) || 0;
 
