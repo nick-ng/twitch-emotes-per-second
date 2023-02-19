@@ -3,7 +3,7 @@
 // @namespace   https://github.com/nick-ng/twitch-emotes-per-second
 // @match       https://www.twitch.tv/*
 // @grant       none
-// @version     1.9
+// @version     1.10
 // @author      https://github.com/nick-ng
 // @description Show emote counters on Twitch
 // @downloadURL https://emotes-per-second.pux.one/violent-monkey.js
@@ -192,7 +192,7 @@
     data.emoteCounts
       ?.sort((a, b) => b.count - a.count)
       .slice(0, EMOTE_LIMIT)
-      .forEach((emoteCount) => {
+      .forEach((emoteCount, i) => {
         const { count, emote, imageUrl } = emoteCount;
         if (count >= EMOTE_COUNT_THRESHOLD) {
           const tempEmoteCard = makeElement("div", mainEl, null, {
@@ -234,7 +234,10 @@
               "height: min-content",
             ].join(";"),
           });
-          tempTooltip.classList.add(`parent-hover-${ID}`);
+
+          if (i !== 0) {
+            tempTooltip.classList.add(`parent-hover-${ID}`);
+          }
         }
       });
   });
